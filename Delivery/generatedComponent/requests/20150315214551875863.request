@@ -1,0 +1,12 @@
+{
+    "component": "Component",
+    "message": {
+        "data": {
+            "time": "now"
+        },
+        "head": "wake"
+    },
+    "protocol": "UDP",
+    "stamp": "20150315214551875863",
+    "status": "processed"
+}

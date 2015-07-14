@@ -1,0 +1,12 @@
+{
+    "component": "Arduino1421",
+    "message": {
+        "data": {
+            "time": "now"
+        },
+        "head": "sleep"
+    },
+    "protocol": "SERIAL",
+    "stamp": "20150315214339069124",
+    "status": "processed"
+}

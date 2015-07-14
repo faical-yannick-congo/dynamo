@@ -1,0 +1,12 @@
+{
+    "component": "Component",
+    "message": {
+        "data": {
+            "time": "now"
+        },
+        "head": "wake"
+    },
+    "protocol": "SERIAL",
+    "stamp": "20150316205724424409",
+    "status": "processed"
+}

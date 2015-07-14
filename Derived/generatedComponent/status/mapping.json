@@ -1,0 +1,150 @@
+{
+	"distribution":
+	[
+		{
+			"component":"GlobalSystemComponent",
+			"capabilities":
+			[
+				{
+					"protocol":"SERIAL",
+					"location":"/dev/tty.globalSys00",
+					"baud":9600,
+					"timeout":5
+				},
+				{
+					"protocol":"TCP",
+					"host":"localhost",
+					"port": 5010
+				},
+				{
+					"protocol":"UDP",
+					"host":"localhost",
+					"port": 5030
+				},
+				{
+					"protocol":"TELNET",
+					"host":"localhost",
+					"port": 5020,
+					"command":"communicate"
+				},
+				{
+					"protocol":"SSH",
+					"host":"localhost",
+					"port": 5022,
+					"command":"communicate"
+				},
+				{
+					"protocol":"HTTP",
+					"host":"localhost",
+					"port": 5200,
+					"endpoint":"/dynamicderivation/v1/process/meta/global/"
+				}
+			]
+		},
+		{
+			"component":"MetaStructuralComponent",
+			"capabilities":
+			[
+				{
+					"protocol":"SERIAL",
+					"location":"/dev/tty.globalSys00",
+					"baud":9600,
+					"timeout":5
+				},
+				{
+					"protocol":"TCP",
+					"host":"localhost",
+					"port": 5110
+				},
+				{
+					"protocol":"UDP",
+					"host":"localhost",
+					"port": 5130
+				},
+				{
+					"protocol":"TELNET",
+					"host":"localhost",
+					"port": 5120,
+					"command":"communicate"
+				},
+				{
+					"protocol":"SSH",
+					"host":"localhost",
+					"port": 5122,
+					"command":"communicate"
+				},
+				{
+					"protocol":"HTTP",
+					"host":"localhost",
+					"port": 5200,
+					"endpoint":"/dynamicderivation/v1/process/meta/structural/"
+				}
+			]
+		},
+		{
+			"component":"MetaBehaviroalComponent",
+			"capabilities":
+			[
+				{
+					"protocol":"SERIAL",
+					"location":"/dev/tty.globalSys00",
+					"baud":9600,
+					"timeout":5
+				},
+				{
+					"protocol":"TCP",
+					"host":"localhost",
+					"port": 5210
+				},
+				{
+					"protocol":"UDP",
+					"host":"localhost",
+					"port": 5230
+				},
+				{
+					"protocol":"TELNET",
+					"host":"localhost",
+					"port": 5220,
+					"command":"communicate"
+				},
+				{
+					"protocol":"SSH",
+					"host":"localhost",
+					"port": 5222,
+					"command":"communicate"
+				},
+				{
+					"protocol":"HHTP",
+					"host":"localhost",
+					"port": 5200,
+					"endpoint":"/dynamicderivation/v1/process/meta/behavioral"
+				}
+			]
+		},
+		{
+			"component":"Arduino1421",
+			"capabilities":
+			[
+				{
+					"protocol":"SERIAL",
+					"location":"/dev/tty.usbmodem1421",
+					"baud":9600,
+					"timeout":5
+				}
+			]
+		},
+		{
+			"component":"Restpoint45",
+			"capabilities":
+			[
+				{
+					"protocol":"HTTP",
+					"host":"localhost",
+					"port": 7000,
+					"endpoint":"/dynamicderivation/v1/process/meta/respoint45"
+				}
+			]
+		}
+
+	]
+}

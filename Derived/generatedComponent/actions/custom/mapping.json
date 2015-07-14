@@ -1,0 +1,11 @@
+{
+	"resolver":
+	[
+
+		{
+			"action":"action0",
+			"executor":"python",
+			"process":"../actions/custom/action0.py"
+		}
+	]
+}

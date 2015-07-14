@@ -1,0 +1,6 @@
+{
+	"created":"timestamp",
+	"requirement":"requirementID",
+	"status":"Sleep|Update|Wake|Destroy",
+	"consistency":"Initial|Updated"
+}

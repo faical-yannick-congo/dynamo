@@ -1,0 +1,12 @@
+{
+	"stamp":"sentStamp",
+	"component":"componentName",
+	"protocol":"TCP|HTTP|UDP|TELNET",
+	"message":
+	{
+		"head":"CUSTOM_435",
+		"data":{
+			"Anything":"Something that the executing action will undertand when passed to it as a json data (--data)"
+		}
+	}
+}

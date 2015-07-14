@@ -1,0 +1,12 @@
+{
+    "component": "Component",
+    "message": {
+        "data": {
+            "time": "now"
+        },
+        "head": "sleep"
+    },
+    "protocol": "TELNET",
+    "stamp": "20150315220017521783",
+    "status": "processed"
+}

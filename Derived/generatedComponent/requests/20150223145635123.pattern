@@ -1,0 +1,12 @@
+{
+    "component": "componentName",
+    "message": {
+        "data": {
+            "Anything": "Something that the executing action will undertand when passed to it as a json data (--data)"
+        },
+        "head": "CUSTOM_435"
+    },
+    "protocol": "SERIAL|TCP|HTTP|UDP|TELNET",
+    "stamp": "sentStamp",
+    "status": "processed"
+}

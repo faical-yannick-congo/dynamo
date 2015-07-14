@@ -1,0 +1,5 @@
+<w>{Patient, s:Receptionist:t} = <wait>{Patient:t, s:Receptionist} *w <epsilon>{}
+
+<act>{Patient:t, s:Receptionist:t, Doctor:t} = <assign>{s:Receptionist:t, Doctor} ;w <consult>{Patient:t, s:Doctor:t}
+
+<telemed1>{Patient, Receptionist, Doctor} = <register>{s:Patient:t, Receptionist} ;w (<w>{Patient, s:Receptionist:t} |> <h-up>{s:Patient:t} else <act>{Patient:t, s:Receptionist:t, Doctor:t})

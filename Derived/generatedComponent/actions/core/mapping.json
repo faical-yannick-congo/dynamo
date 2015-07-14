@@ -1,0 +1,25 @@
+{
+	"resolver":
+	[
+		{
+			"action":"sleep",
+			"executor":"python",
+			"process":"../actions/core/sleep.py"
+		},
+		{
+			"action":"wake",
+			"executor":"python",
+			"process":"../actions/core/wake.py"
+		},
+		{
+			"action":"update",
+			"executor":"python",
+			"process":"../actions/core/update.py"
+		},
+		{
+			"action":"destroy",
+			"executor":"python",
+			"process":"../actions/core/destroy.py"
+		}
+	]
+}

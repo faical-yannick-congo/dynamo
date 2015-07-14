@@ -1,0 +1,19 @@
+{
+	"timeline":
+	[
+		{
+			"created":"timestamp1",
+			"expired":"timestamp2",
+			"expression":"expresionID in MetaComponent expression.json file",
+			"executions":17586,
+			"messages":8374675802
+		},
+		{
+			"created":"timestamp3",
+			"expired":"",
+			"expression":"expresionID in MetaComponent expression.json file",
+			"executions":14,
+			"messages":4567
+		}
+	]
+}

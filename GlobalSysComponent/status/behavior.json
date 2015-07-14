@@ -1,0 +1,33 @@
+{
+	"actions":
+	[
+		{
+			"state":"Wake|Sleep|Update",
+			"component":"MetaStructuralComponent",
+			"token":"Hash critical actions require hashes for protection.",
+			"message":"DESTROY",
+			"action":"destroy"
+		},
+		{
+			"state":"Wake|Sleep",
+			"component":"MetaBehaviroalComponent",
+			"token":"Hash critical actions require hashes for protection.",
+			"message":"UPDATE",
+			"action":"update"
+		},
+		{
+			"state":"Wake",
+			"component":"MetaBehaviroalComponent",
+			"token":"Hash critical actions require hashes for protection.",
+			"message":"SLEEP",
+			"action":"sleep"
+		},
+		{
+			"state":"Sleep",
+			"component":"MetaBehaviroalComponent",
+			"token":"Hash critical actions require hashes for protection.",
+			"message":"WAKE",
+			"action":"wake"
+		}
+	]
+}

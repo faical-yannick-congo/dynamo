@@ -1,0 +1,6 @@
+{
+    "consistency": "UPDATED",
+    "created": "timestamp",
+    "requirement": "requirementID",
+    "status": "DESTORY"
+}

@@ -1,0 +1,15 @@
+Traces examples:
+
+timestamp --- receiving 'messageID' from 'componentName'.
+timestamp --- sending 'messageID' to 'componentName'.
+timestamp --- going to sleep.
+timestamp --- going to update.
+timestamp --- going to wake up.
+timestamp --- going to be destroyed
+timestamp --- running
+timestamp --- sleeping
+timestamp --- updating
+timestamp --- being destroyed # Attention!! When changing an expression to ge regenerated, the system state should be preserved. All the components are put to sleep and the derived section is tarballed in a file named after the generated ID of the corresponding expression. The requests files defines what the component should get back at doing.
+timestamp --- receiving 'messageID' from 'componentName'
+
+NOTE: Inside Behavior, message is the head of the json head field in the request message : It defines if the request is core: WAKE, UDPATE, SLEEP, DESTROY or CUSTOM_82763 for anyother custom with its custom code.

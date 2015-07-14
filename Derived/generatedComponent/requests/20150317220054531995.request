@@ -1,0 +1,12 @@
+{
+    "component": "RestClient",
+    "message": {
+        "data": {
+            "time": "now"
+        },
+        "head": "sleep"
+    },
+    "protocol": "TCP",
+    "stamp": "20150317220054531995",
+    "status": "processed"
+}

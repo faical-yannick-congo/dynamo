@@ -1,0 +1,12 @@
+{
+    "component": "Component",
+    "message": {
+        "data": {
+            "time": "now"
+        },
+        "head": "wake"
+    },
+    "protocol": "SSH",
+    "stamp": "20150316210004730048",
+    "status": "processed"
+}

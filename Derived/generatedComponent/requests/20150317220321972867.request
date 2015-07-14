@@ -1,0 +1,12 @@
+{
+    "component": "Restpoint45",
+    "message": {
+        "data": {
+            "time": "now"
+        },
+        "head": "wake"
+    },
+    "protocol": "HTTP",
+    "stamp": "20150317220321972867",
+    "status": "processed"
+}

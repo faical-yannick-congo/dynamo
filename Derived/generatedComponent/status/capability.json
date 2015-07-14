@@ -1,0 +1,39 @@
+{
+	"capabilities":
+	[
+		{
+			"protocol":"SERIAL",
+			"location":"/dev/ttys000",
+			"baud":9600,
+			"timeout":5
+		},
+		{
+			"protocol":"TCP",
+			"host":"localhost",
+			"port": 6010
+		},
+		{
+			"protocol":"UDP",
+			"host":"localhost",
+			"port": 6030
+		},
+		{
+			"protocol":"TELNET",
+			"host":"localhost",
+			"port": 6020,
+			"command":"communicate"
+		},
+		{
+			"protocol":"SSH",
+			"host":"localhost",
+			"port": 6022,
+			"command":"communicate"
+		},
+		{
+			"protocol":"HTTP",
+			"host":"localhost",
+			"port": 6000,
+			"endpoint":"/dynamicderivation/v1/process/gen/comp00/"
+		}
+	]
+}

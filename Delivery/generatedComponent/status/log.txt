@@ -1,0 +1,1863 @@
+Traces examples:
+
+timestamp --- receiving 'messageID' from 'componentName'.
+timestamp --- sending 'messageID' to 'componentName'.
+timestamp --- going to sleep.
+timestamp --- going to update.
+timestamp --- going to wake up.
+timestamp --- going to be destroyed
+timestamp --- running
+timestamp --- sleeping
+timestamp --- updating
+timestamp --- being destroyed # Attention!! When changing an expression to ge regenerated, the system state should be preserved. All the components are put to sleep and the derived section is tarballed in a file named after the generated ID of the corresponding expression. The requests files defines what the component should get back at doing.
+timestamp --- receiving 'messageID' from 'componentName'
+
+NOTE: Inside Behavior, message is the head of the json head field in the request message : It defines if the request is core: WAKE, UDPATE, SLEEP, DESTROY or CUSTOM_82763 for anyother custom with its custom code.
+
+[GeneratedComponent] 2015-03-16 20:44:40.038848 --- Component behavior loaded.
+[GeneratedComponent] 2015-03-16 20:44:40.048804 --- Component history loaded.
+[GeneratedComponent] 2015-03-16 20:44:40.052034 --- Component mapping loaded.
+[GeneratedComponent] 2015-03-16 20:44:40.052235 --- Component state loaded.
+[GeneratedComponent] 2015-03-16 20:48:08.427082 --- Component behavior loaded.
+[GeneratedComponent] 2015-03-16 20:48:08.427647 --- Component history loaded.
+[GeneratedComponent] 2015-03-16 20:48:08.433274 --- Component mapping loaded.
+[GeneratedComponent] 2015-03-16 20:48:08.433475 --- Component state loaded.
+[GeneratedComponent] 2015-03-16 20:48:08.435104 --- Core actions mapping loaded.
+[GeneratedComponent] 2015-03-16 20:48:08.435986 --- Custom actions mapping loaded.
+[GeneratedComponent] 2015-03-17 16:11:59.159671 --- Component behavior loaded.
+[GeneratedComponent] 2015-03-17 16:11:59.175989 --- Component history loaded.
+[GeneratedComponent] 2015-03-17 16:11:59.179341 --- Component mapping loaded.
+[GeneratedComponent] 2015-03-17 16:11:59.179873 --- Component state loaded.
+[GeneratedComponent] 2015-03-17 16:11:59.180746 --- Component capability loaded.
+[GeneratedComponent] 2015-03-17 16:11:59.183020 --- Core actions mapping loaded.
+[GeneratedComponent] 2015-03-17 16:11:59.183185 --- Custom actions mapping loaded.
+[GeneratedComponent] 2015-03-17 16:11:59.184134 --- Component behavior loaded.
+[GeneratedComponent] 2015-03-17 16:11:59.184695 --- Component history loaded.
+[GeneratedComponent] 2015-03-17 16:11:59.188043 --- Component mapping loaded.
+[GeneratedComponent] 2015-03-17 16:11:59.188260 --- Component state loaded.
+[GeneratedComponent] 2015-03-17 16:11:59.189102 --- Component capability loaded.
+[GeneratedComponent] 2015-03-17 16:11:59.190969 --- Core actions mapping loaded.
+[GeneratedComponent] 2015-03-17 16:11:59.191111 --- Custom actions mapping loaded.
+[GeneratedComponent] 2015-03-17 16:11:59.197244 --- Component behavior loaded.
+[GeneratedComponent] 2015-03-17 16:11:59.197823 --- Component history loaded.
+[GeneratedComponent] 2015-03-17 16:11:59.201222 --- Component mapping loaded.
+[GeneratedComponent] 2015-03-17 16:11:59.201426 --- Component state loaded.
+[GeneratedComponent] 2015-03-17 16:11:59.202257 --- Component capability loaded.
+[GeneratedComponent] 2015-03-17 16:11:59.204132 --- Core actions mapping loaded.
+[GeneratedComponent] 2015-03-17 16:11:59.204276 --- Custom actions mapping loaded.
+[GeneratedComponent] 2015-03-17 16:13:25.681515 --- Component behavior loaded.
+[GeneratedComponent] 2015-03-17 16:13:25.704692 --- Component history loaded.
+[GeneratedComponent] 2015-03-17 16:13:25.709521 --- Component mapping loaded.
+[GeneratedComponent] 2015-03-17 16:13:25.709768 --- Component state loaded.
+[GeneratedComponent] 2015-03-17 16:13:25.710843 --- Component capability loaded.
+[GeneratedComponent] 2015-03-17 16:13:25.713176 --- Core actions mapping loaded.
+[GeneratedComponent] 2015-03-17 16:13:25.713363 --- Custom actions mapping loaded.
+[GeneratedComponent] 2015-03-17 16:13:25.714587 --- Component behavior loaded.
+[GeneratedComponent] 2015-03-17 16:13:25.715377 --- Component history loaded.
+[GeneratedComponent] 2015-03-17 16:13:25.719421 --- Component mapping loaded.
+[GeneratedComponent] 2015-03-17 16:13:25.719641 --- Component state loaded.
+[GeneratedComponent] 2015-03-17 16:13:25.720537 --- Component capability loaded.
+[GeneratedComponent] 2015-03-17 16:13:25.722552 --- Core actions mapping loaded.
+[GeneratedComponent] 2015-03-17 16:13:25.722694 --- Custom actions mapping loaded.
+[GeneratedComponent] 2015-03-17 16:13:25.728748 --- Component behavior loaded.
+[GeneratedComponent] 2015-03-17 16:13:25.729390 --- Component history loaded.
+[GeneratedComponent] 2015-03-17 16:13:25.732661 --- Component mapping loaded.
+[GeneratedComponent] 2015-03-17 16:13:25.732859 --- Component state loaded.
+[GeneratedComponent] 2015-03-17 16:13:25.733689 --- Component capability loaded.
+[GeneratedComponent] 2015-03-17 16:13:25.735494 --- Core actions mapping loaded.
+[GeneratedComponent] 2015-03-17 16:13:25.735637 --- Custom actions mapping loaded.
+[GeneratedComponent] 2015-03-17 16:14:05.489811 --- Component behavior loaded.
+[GeneratedComponent] 2015-03-17 16:14:05.508425 --- Component history loaded.
+[GeneratedComponent] 2015-03-17 16:14:05.511760 --- Component mapping loaded.
+[GeneratedComponent] 2015-03-17 16:14:05.511951 --- Component state loaded.
+[GeneratedComponent] 2015-03-17 16:14:05.512783 --- Component capability loaded.
+[GeneratedComponent] 2015-03-17 16:14:05.514553 --- Core actions mapping loaded.
+[GeneratedComponent] 2015-03-17 16:14:05.514689 --- Custom actions mapping loaded.
+[GeneratedComponent] 2015-03-17 16:14:05.515618 --- Component behavior loaded.
+[GeneratedComponent] 2015-03-17 16:14:05.516177 --- Component history loaded.
+[GeneratedComponent] 2015-03-17 16:14:05.519382 --- Component mapping loaded.
+[GeneratedComponent] 2015-03-17 16:14:05.519601 --- Component state loaded.
+[GeneratedComponent] 2015-03-17 16:14:05.520424 --- Component capability loaded.
+[GeneratedComponent] 2015-03-17 16:14:05.522301 --- Core actions mapping loaded.
+[GeneratedComponent] 2015-03-17 16:14:05.522447 --- Custom actions mapping loaded.
+[GeneratedComponent] 2015-03-17 16:14:05.528188 --- Component behavior loaded.
+[GeneratedComponent] 2015-03-17 16:14:05.528775 --- Component history loaded.
+[GeneratedComponent] 2015-03-17 16:14:05.532042 --- Component mapping loaded.
+[GeneratedComponent] 2015-03-17 16:14:05.532237 --- Component state loaded.
+[GeneratedComponent] 2015-03-17 16:14:05.533062 --- Component capability loaded.
+[GeneratedComponent] 2015-03-17 16:14:05.534926 --- Core actions mapping loaded.
+[GeneratedComponent] 2015-03-17 16:14:05.535075 --- Custom actions mapping loaded.
+[GeneratedComponent] 2015-03-17 16:14:05.535616 --- Serial protocol calibrated for the response
+[GeneratedComponent] 2015-03-17 16:15:35.732231 --- Component behavior loaded.
+[GeneratedComponent] 2015-03-17 16:15:35.754476 --- Component history loaded.
+[GeneratedComponent] 2015-03-17 16:15:35.759356 --- Component mapping loaded.
+[GeneratedComponent] 2015-03-17 16:15:35.759604 --- Component state loaded.
+[GeneratedComponent] 2015-03-17 16:15:35.760680 --- Component capability loaded.
+[GeneratedComponent] 2015-03-17 16:15:35.763118 --- Core actions mapping loaded.
+[GeneratedComponent] 2015-03-17 16:15:35.763321 --- Custom actions mapping loaded.
+[GeneratedComponent] 2015-03-17 16:15:35.764535 --- Component behavior loaded.
+[GeneratedComponent] 2015-03-17 16:15:35.765364 --- Component history loaded.
+[GeneratedComponent] 2015-03-17 16:15:35.769151 --- Component mapping loaded.
+[GeneratedComponent] 2015-03-17 16:15:35.769363 --- Component state loaded.
+[GeneratedComponent] 2015-03-17 16:15:35.770254 --- Component capability loaded.
+[GeneratedComponent] 2015-03-17 16:15:35.772263 --- Core actions mapping loaded.
+[GeneratedComponent] 2015-03-17 16:15:35.772419 --- Custom actions mapping loaded.
+[GeneratedComponent] 2015-03-17 16:15:35.778354 --- Component behavior loaded.
+[GeneratedComponent] 2015-03-17 16:15:35.778936 --- Component history loaded.
+[GeneratedComponent] 2015-03-17 16:15:35.782169 --- Component mapping loaded.
+[GeneratedComponent] 2015-03-17 16:15:35.782365 --- Component state loaded.
+[GeneratedComponent] 2015-03-17 16:15:35.783209 --- Component capability loaded.
+[GeneratedComponent] 2015-03-17 16:15:35.784990 --- Core actions mapping loaded.
+[GeneratedComponent] 2015-03-17 16:15:35.785134 --- Custom actions mapping loaded.
+[GeneratedComponent] 2015-03-17 16:15:35.785679 --- Serial protocol calibrated for the response
+[GeneratedComponent] 2015-03-17 16:16:44.747084 --- Component behavior loaded.
+[GeneratedComponent] 2015-03-17 16:16:44.762301 --- Component history loaded.
+[GeneratedComponent] 2015-03-17 16:16:44.765619 --- Component mapping loaded.
+[GeneratedComponent] 2015-03-17 16:16:44.765811 --- Component state loaded.
+[GeneratedComponent] 2015-03-17 16:16:44.766643 --- Component capability loaded.
+[GeneratedComponent] 2015-03-17 16:16:44.768487 --- Core actions mapping loaded.
+[GeneratedComponent] 2015-03-17 16:16:44.768632 --- Custom actions mapping loaded.
+[GeneratedComponent] 2015-03-17 16:16:44.769559 --- Component behavior loaded.
+[GeneratedComponent] 2015-03-17 16:16:44.770119 --- Component history loaded.
+[GeneratedComponent] 2015-03-17 16:16:44.773362 --- Component mapping loaded.
+[GeneratedComponent] 2015-03-17 16:16:44.773561 --- Component state loaded.
+[GeneratedComponent] 2015-03-17 16:16:44.774377 --- Component capability loaded.
+[GeneratedComponent] 2015-03-17 16:16:44.776224 --- Core actions mapping loaded.
+[GeneratedComponent] 2015-03-17 16:16:44.776369 --- Custom actions mapping loaded.
+[GeneratedComponent] 2015-03-17 16:16:44.782037 --- Component behavior loaded.
+[GeneratedComponent] 2015-03-17 16:16:44.782616 --- Component history loaded.
+[GeneratedComponent] 2015-03-17 16:16:44.785905 --- Component mapping loaded.
+[GeneratedComponent] 2015-03-17 16:16:44.786115 --- Component state loaded.
+[GeneratedComponent] 2015-03-17 16:16:44.786947 --- Component capability loaded.
+[GeneratedComponent] 2015-03-17 16:16:44.788851 --- Core actions mapping loaded.
+[GeneratedComponent] 2015-03-17 16:16:44.789004 --- Custom actions mapping loaded.
+[GeneratedComponent] 2015-03-17 16:16:44.789549 --- Serial protocol calibrated for the response
+[GeneratedComponent] 2015-03-17 16:19:13.470287 --- Component behavior loaded.
+[GeneratedComponent] 2015-03-17 16:19:13.481843 --- Component history loaded.
+[GeneratedComponent] 2015-03-17 16:19:13.485994 --- Component mapping loaded.
+[GeneratedComponent] 2015-03-17 16:19:13.486261 --- Component state loaded.
+[GeneratedComponent] 2015-03-17 16:19:13.487229 --- Component capability loaded.
+[GeneratedComponent] 2015-03-17 16:19:13.489282 --- Core actions mapping loaded.
+[GeneratedComponent] 2015-03-17 16:19:13.489430 --- Custom actions mapping loaded.
+[GeneratedComponent] 2015-03-17 16:19:13.490358 --- Component behavior loaded.
+[GeneratedComponent] 2015-03-17 16:19:13.490917 --- Component history loaded.
+[GeneratedComponent] 2015-03-17 16:19:13.494113 --- Component mapping loaded.
+[GeneratedComponent] 2015-03-17 16:19:13.494308 --- Component state loaded.
+[GeneratedComponent] 2015-03-17 16:19:13.495122 --- Component capability loaded.
+[GeneratedComponent] 2015-03-17 16:19:13.496988 --- Core actions mapping loaded.
+[GeneratedComponent] 2015-03-17 16:19:13.497157 --- Custom actions mapping loaded.
+[GeneratedComponent] 2015-03-17 16:19:13.502829 --- Component behavior loaded.
+[GeneratedComponent] 2015-03-17 16:19:13.503415 --- Component history loaded.
+[GeneratedComponent] 2015-03-17 16:19:13.506704 --- Component mapping loaded.
+[GeneratedComponent] 2015-03-17 16:19:13.506898 --- Component state loaded.
+[GeneratedComponent] 2015-03-17 16:19:13.507716 --- Component capability loaded.
+[GeneratedComponent] 2015-03-17 16:19:13.509556 --- Core actions mapping loaded.
+[GeneratedComponent] 2015-03-17 16:19:13.509719 --- Custom actions mapping loaded.
+[GeneratedComponent] 2015-03-17 16:19:13.510367 --- Serial protocol calibrated for the response
+[GeneratedComponent] 2015-03-17 16:35:00.517252 --- Component behavior loaded.
+[GeneratedComponent] 2015-03-17 16:35:00.517948 --- Component history loaded.
+[GeneratedComponent] 2015-03-17 16:35:00.521221 --- Component mapping loaded.
+[GeneratedComponent] 2015-03-17 16:35:00.521433 --- Component state loaded.
+[GeneratedComponent] 2015-03-17 16:35:00.522270 --- Component capability loaded.
+[GeneratedComponent] 2015-03-17 16:35:00.524108 --- Core actions mapping loaded.
+[GeneratedComponent] 2015-03-17 16:35:00.524255 --- Custom actions mapping loaded.
+[GeneratedComponent] 2015-03-17 16:35:00.525200 --- Component behavior loaded.
+[GeneratedComponent] 2015-03-17 16:35:00.525769 --- Component history loaded.
+[GeneratedComponent] 2015-03-17 16:35:00.529040 --- Component mapping loaded.
+[GeneratedComponent] 2015-03-17 16:35:00.529246 --- Component state loaded.
+[GeneratedComponent] 2015-03-17 16:35:00.530068 --- Component capability loaded.
+[GeneratedComponent] 2015-03-17 16:35:00.531889 --- Core actions mapping loaded.
+[GeneratedComponent] 2015-03-17 16:35:00.532030 --- Custom actions mapping loaded.
+[GeneratedComponent] 2015-03-17 16:35:00.537766 --- Component behavior loaded.
+[GeneratedComponent] 2015-03-17 16:35:00.538383 --- Component history loaded.
+[GeneratedComponent] 2015-03-17 16:35:00.541663 --- Component mapping loaded.
+[GeneratedComponent] 2015-03-17 16:35:00.541881 --- Component state loaded.
+[GeneratedComponent] 2015-03-17 16:35:00.542711 --- Component capability loaded.
+[GeneratedComponent] 2015-03-17 16:35:00.544534 --- Core actions mapping loaded.
+[GeneratedComponent] 2015-03-17 16:35:00.544679 --- Custom actions mapping loaded.
+[GeneratedComponent] 2015-03-17 16:35:00.545232 --- Serial protocol calibrated for the response
+[GeneratedComponent] 2015-03-17 16:39:54.277330 --- Component behavior loaded.
+[GeneratedComponent] 2015-03-17 16:39:54.277519 --- Component history loaded.
+[GeneratedComponent] 2015-03-17 16:39:54.277686 --- Component mapping loaded.
+[GeneratedComponent] 2015-03-17 16:39:54.277779 --- Component state loaded.
+[GeneratedComponent] 2015-03-17 16:39:54.277919 --- Component capability loaded.
+[GeneratedComponent] 2015-03-17 16:39:54.288942 --- Core actions mapping loaded.
+[GeneratedComponent] 2015-03-17 16:39:54.289086 --- Custom actions mapping loaded.
+[GeneratedComponent] 2015-03-17 16:39:54.289371 --- Component behavior loaded.
+[GeneratedComponent] 2015-03-17 16:39:54.289480 --- Component history loaded.
+[GeneratedComponent] 2015-03-17 16:39:54.289647 --- Component mapping loaded.
+[GeneratedComponent] 2015-03-17 16:39:54.289737 --- Component state loaded.
+[GeneratedComponent] 2015-03-17 16:39:54.289916 --- Component capability loaded.
+[GeneratedComponent] 2015-03-17 16:39:54.291429 --- Core actions mapping loaded.
+[GeneratedComponent] 2015-03-17 16:39:54.291526 --- Custom actions mapping loaded.
+[GeneratedComponent] 2015-03-17 16:39:54.296498 --- Component behavior loaded.
+[GeneratedComponent] 2015-03-17 16:39:54.296635 --- Component history loaded.
+[GeneratedComponent] 2015-03-17 16:39:54.296823 --- Component mapping loaded.
+[GeneratedComponent] 2015-03-17 16:39:54.296917 --- Component state loaded.
+[GeneratedComponent] 2015-03-17 16:39:54.297026 --- Component capability loaded.
+[GeneratedComponent] 2015-03-17 16:39:54.298377 --- Core actions mapping loaded.
+[GeneratedComponent] 2015-03-17 16:39:54.298485 --- Custom actions mapping loaded.
+[GeneratedComponent] 2015-03-17 16:39:54.298822 --- Serial protocol calibrated for the response
+[GeneratedComponent] 2015-03-17 16:40:32.706708 --- Component behavior loaded.
+[GeneratedComponent] 2015-03-17 16:40:32.706898 --- Component history loaded.
+[GeneratedComponent] 2015-03-17 16:40:32.707075 --- Component mapping loaded.
+[GeneratedComponent] 2015-03-17 16:40:32.707170 --- Component state loaded.
+[GeneratedComponent] 2015-03-17 16:40:32.707331 --- Component capability loaded.
+[GeneratedComponent] 2015-03-17 16:40:32.728289 --- Core actions mapping loaded.
+[GeneratedComponent] 2015-03-17 16:40:32.728522 --- Custom actions mapping loaded.
+[GeneratedComponent] 2015-03-17 16:40:32.728955 --- Component behavior loaded.
+[GeneratedComponent] 2015-03-17 16:40:32.729125 --- Component history loaded.
+[GeneratedComponent] 2015-03-17 16:40:32.729417 --- Component mapping loaded.
+[GeneratedComponent] 2015-03-17 16:40:32.729654 --- Component state loaded.
+[GeneratedComponent] 2015-03-17 16:40:32.729888 --- Component capability loaded.
+[GeneratedComponent] 2015-03-17 16:40:32.731864 --- Core actions mapping loaded.
+[GeneratedComponent] 2015-03-17 16:40:32.732004 --- Custom actions mapping loaded.
+[GeneratedComponent] 2015-03-17 16:40:32.738290 --- Component behavior loaded.
+[GeneratedComponent] 2015-03-17 16:40:32.738449 --- Component history loaded.
+[GeneratedComponent] 2015-03-17 16:40:32.738693 --- Component mapping loaded.
+[GeneratedComponent] 2015-03-17 16:40:32.738825 --- Component state loaded.
+[GeneratedComponent] 2015-03-17 16:40:32.738960 --- Component capability loaded.
+[GeneratedComponent] 2015-03-17 16:40:32.740453 --- Core actions mapping loaded.
+[GeneratedComponent] 2015-03-17 16:40:32.740553 --- Custom actions mapping loaded.
+[GeneratedComponent] 2015-03-17 16:40:32.740913 --- Serial protocol calibrated for the response
+[GeneratedComponent] 2015-03-17 16:41:08.023757 --- Component behavior loaded.
+[GeneratedComponent] 2015-03-17 16:41:08.024017 --- Component history loaded.
+[GeneratedComponent] 2015-03-17 16:41:08.028402 --- Component mapping loaded.
+[GeneratedComponent] 2015-03-17 16:41:08.028507 --- Component state loaded.
+[GeneratedComponent] 2015-03-17 16:41:08.028632 --- Component capability loaded.
+[GeneratedComponent] 2015-03-17 16:41:08.050152 --- Core actions mapping loaded.
+[GeneratedComponent] 2015-03-17 16:41:08.050336 --- Custom actions mapping loaded.
+[GeneratedComponent] 2015-03-17 16:41:08.050699 --- Component behavior loaded.
+[GeneratedComponent] 2015-03-17 16:41:08.050846 --- Component history loaded.
+[GeneratedComponent] 2015-03-17 16:41:08.051067 --- Component mapping loaded.
+[GeneratedComponent] 2015-03-17 16:41:08.051195 --- Component state loaded.
+[GeneratedComponent] 2015-03-17 16:41:08.051347 --- Component capability loaded.
+[GeneratedComponent] 2015-03-17 16:41:08.053327 --- Core actions mapping loaded.
+[GeneratedComponent] 2015-03-17 16:41:08.053462 --- Custom actions mapping loaded.
+[GeneratedComponent] 2015-03-17 16:41:08.059629 --- Component behavior loaded.
+[GeneratedComponent] 2015-03-17 16:41:08.059793 --- Component history loaded.
+[GeneratedComponent] 2015-03-17 16:41:08.059982 --- Component mapping loaded.
+[GeneratedComponent] 2015-03-17 16:41:08.060084 --- Component state loaded.
+[GeneratedComponent] 2015-03-17 16:41:08.060203 --- Component capability loaded.
+[GeneratedComponent] 2015-03-17 16:41:08.061679 --- Core actions mapping loaded.
+[GeneratedComponent] 2015-03-17 16:41:08.061808 --- Custom actions mapping loaded.
+[GeneratedComponent] 2015-03-17 16:41:08.062172 --- Serial protocol calibrated for the response
+[GeneratedComponent] 2015-03-17 16:45:26.565719 --- Component behavior loaded.
+[GeneratedComponent] 2015-03-17 16:45:26.565919 --- Component history loaded.
+[GeneratedComponent] 2015-03-17 16:45:26.566093 --- Component mapping loaded.
+[GeneratedComponent] 2015-03-17 16:45:26.566185 --- Component state loaded.
+[GeneratedComponent] 2015-03-17 16:45:26.566305 --- Component capability loaded.
+[GeneratedComponent] 2015-03-17 16:45:26.582350 --- Core actions mapping loaded.
+[GeneratedComponent] 2015-03-17 16:45:26.582502 --- Custom actions mapping loaded.
+[GeneratedComponent] 2015-03-17 16:45:26.582775 --- Component behavior loaded.
+[GeneratedComponent] 2015-03-17 16:45:26.582890 --- Component history loaded.
+[GeneratedComponent] 2015-03-17 16:45:26.583052 --- Component mapping loaded.
+[GeneratedComponent] 2015-03-17 16:45:26.583145 --- Component state loaded.
+[GeneratedComponent] 2015-03-17 16:45:26.583257 --- Component capability loaded.
+[GeneratedComponent] 2015-03-17 16:45:26.584669 --- Core actions mapping loaded.
+[GeneratedComponent] 2015-03-17 16:45:26.584778 --- Custom actions mapping loaded.
+[GeneratedComponent] 2015-03-17 16:45:26.589915 --- Component behavior loaded.
+[GeneratedComponent] 2015-03-17 16:45:26.590054 --- Component history loaded.
+[GeneratedComponent] 2015-03-17 16:45:26.590225 --- Component mapping loaded.
+[GeneratedComponent] 2015-03-17 16:45:26.590336 --- Component state loaded.
+[GeneratedComponent] 2015-03-17 16:45:26.590446 --- Component capability loaded.
+[GeneratedComponent] 2015-03-17 16:45:26.591817 --- Core actions mapping loaded.
+[GeneratedComponent] 2015-03-17 16:45:26.591916 --- Custom actions mapping loaded.
+[GeneratedComponent] 2015-03-17 16:45:26.592260 --- Serial protocol calibrated for the response
+[GeneratedComponent] 2015-03-17 16:46:29.132384 --- Component behavior loaded.
+[GeneratedComponent] 2015-03-17 16:46:29.132579 --- Component history loaded.
+[GeneratedComponent] 2015-03-17 16:46:29.137118 --- Component mapping loaded.
+[GeneratedComponent] 2015-03-17 16:46:29.137233 --- Component state loaded.
+[GeneratedComponent] 2015-03-17 16:46:29.137368 --- Component capability loaded.
+[GeneratedComponent] 2015-03-17 16:46:29.156879 --- Core actions mapping loaded.
+[GeneratedComponent] 2015-03-17 16:46:29.157060 --- Custom actions mapping loaded.
+[GeneratedComponent] 2015-03-17 16:46:29.157414 --- Component behavior loaded.
+[GeneratedComponent] 2015-03-17 16:46:29.157553 --- Component history loaded.
+[GeneratedComponent] 2015-03-17 16:46:29.157764 --- Component mapping loaded.
+[GeneratedComponent] 2015-03-17 16:46:29.157884 --- Component state loaded.
+[GeneratedComponent] 2015-03-17 16:46:29.158049 --- Component capability loaded.
+[GeneratedComponent] 2015-03-17 16:46:29.159815 --- Core actions mapping loaded.
+[GeneratedComponent] 2015-03-17 16:46:29.159956 --- Custom actions mapping loaded.
+[GeneratedComponent] 2015-03-17 16:46:29.165980 --- Component behavior loaded.
+[GeneratedComponent] 2015-03-17 16:46:29.166134 --- Component history loaded.
+[GeneratedComponent] 2015-03-17 16:46:29.166324 --- Component mapping loaded.
+[GeneratedComponent] 2015-03-17 16:46:29.166426 --- Component state loaded.
+[GeneratedComponent] 2015-03-17 16:46:29.166544 --- Component capability loaded.
+[GeneratedComponent] 2015-03-17 16:46:29.168039 --- Core actions mapping loaded.
+[GeneratedComponent] 2015-03-17 16:46:29.168159 --- Custom actions mapping loaded.
+[GeneratedComponent] 2015-03-17 16:46:29.168532 --- Serial protocol calibrated for the response
+[GeneratedComponent] 2015-03-17 16:46:29.194333 --- Processed Result: 
+[GeneratedComponent] 2015-03-17 16:47:27.156044 --- 
+Component behavior loaded.
+[GeneratedComponent] 2015-03-17 16:47:27.156245 --- Component history loaded.
+[GeneratedComponent] 2015-03-17 16:47:27.156412 --- Component mapping loaded.
+[GeneratedComponent] 2015-03-17 16:47:27.156506 --- Component state loaded.
+[GeneratedComponent] 2015-03-17 16:47:27.156619 --- Component capability loaded.
+[GeneratedComponent] 2015-03-17 16:47:27.165620 --- Core actions mapping loaded.
+[GeneratedComponent] 2015-03-17 16:47:27.165755 --- Custom actions mapping loaded.
+[GeneratedComponent] 2015-03-17 16:47:27.166028 --- 
+Component behavior loaded.
+[GeneratedComponent] 2015-03-17 16:47:27.166135 --- Component history loaded.
+[GeneratedComponent] 2015-03-17 16:47:27.166355 --- Component mapping loaded.
+[GeneratedComponent] 2015-03-17 16:47:27.166470 --- Component state loaded.
+[GeneratedComponent] 2015-03-17 16:47:27.166591 --- Component capability loaded.
+[GeneratedComponent] 2015-03-17 16:47:27.167988 --- Core actions mapping loaded.
+[GeneratedComponent] 2015-03-17 16:47:27.168093 --- Custom actions mapping loaded.
+[GeneratedComponent] 2015-03-17 16:47:27.173203 --- 
+Component behavior loaded.
+[GeneratedComponent] 2015-03-17 16:47:27.173376 --- Component history loaded.
+[GeneratedComponent] 2015-03-17 16:47:27.173616 --- Component mapping loaded.
+[GeneratedComponent] 2015-03-17 16:47:27.173740 --- Component state loaded.
+[GeneratedComponent] 2015-03-17 16:47:27.173858 --- Component capability loaded.
+[GeneratedComponent] 2015-03-17 16:47:27.175221 --- Core actions mapping loaded.
+[GeneratedComponent] 2015-03-17 16:47:27.175321 --- Custom actions mapping loaded.
+[GeneratedComponent] 2015-03-17 16:47:27.175648 --- Serial protocol calibrated for the response
+[GeneratedComponent] 2015-03-17 16:47:27.200957 --- Processed Result: 
+[GeneratedComponent] 2015-03-17 16:48:36.935035 --- 
+
+
+[GeneratedComponent] 2015-03-17 16:48:36.935285 --- Component behavior loaded.
+[GeneratedComponent] 2015-03-17 16:48:36.935407 --- Component history loaded.
+[GeneratedComponent] 2015-03-17 16:48:36.935581 --- Component mapping loaded.
+[GeneratedComponent] 2015-03-17 16:48:36.935682 --- Component state loaded.
+[GeneratedComponent] 2015-03-17 16:48:36.935803 --- Component capability loaded.
+[GeneratedComponent] 2015-03-17 16:48:36.958795 --- Core actions mapping loaded.
+[GeneratedComponent] 2015-03-17 16:48:36.958972 --- Custom actions mapping loaded.
+[GeneratedComponent] 2015-03-17 16:48:36.959322 --- Component behavior loaded.
+[GeneratedComponent] 2015-03-17 16:48:36.959461 --- Component history loaded.
+[GeneratedComponent] 2015-03-17 16:48:36.959675 --- Component mapping loaded.
+[GeneratedComponent] 2015-03-17 16:48:36.959795 --- Component state loaded.
+[GeneratedComponent] 2015-03-17 16:48:36.959941 --- Component capability loaded.
+[GeneratedComponent] 2015-03-17 16:48:36.961683 --- Core actions mapping loaded.
+[GeneratedComponent] 2015-03-17 16:48:36.961833 --- Custom actions mapping loaded.
+[GeneratedComponent] 2015-03-17 16:48:36.967970 --- Component behavior loaded.
+[GeneratedComponent] 2015-03-17 16:48:36.968139 --- Component history loaded.
+[GeneratedComponent] 2015-03-17 16:48:36.968332 --- Component mapping loaded.
+[GeneratedComponent] 2015-03-17 16:48:36.968442 --- Component state loaded.
+[GeneratedComponent] 2015-03-17 16:48:36.968569 --- Component capability loaded.
+[GeneratedComponent] 2015-03-17 16:48:36.970096 --- Core actions mapping loaded.
+[GeneratedComponent] 2015-03-17 16:48:36.970211 --- Custom actions mapping loaded.
+[GeneratedComponent] 2015-03-17 16:48:36.970567 --- Serial protocol calibrated for the response
+[GeneratedComponent] 2015-03-17 16:48:36.998004 --- Processed Result: 
+[GeneratedComponent] 2015-03-17 16:57:20.976057 --- 
+
+
+[GeneratedComponent] 2015-03-17 16:57:20.976284 --- Component behavior loaded.
+[GeneratedComponent] 2015-03-17 16:57:20.976401 --- Component history loaded.
+[GeneratedComponent] 2015-03-17 16:57:20.976614 --- Component mapping loaded.
+[GeneratedComponent] 2015-03-17 16:57:20.976744 --- Component state loaded.
+[GeneratedComponent] 2015-03-17 16:57:20.976888 --- Component capability loaded.
+[GeneratedComponent] 2015-03-17 16:57:20.989777 --- Core actions mapping loaded.
+[GeneratedComponent] 2015-03-17 16:57:20.989952 --- Custom actions mapping loaded.
+[GeneratedComponent] 2015-03-17 16:57:20.990423 --- Component behavior reloaded.
+[GeneratedComponent] 2015-03-17 16:57:20.990654 --- Component history reloaded.
+[GeneratedComponent] 2015-03-17 16:57:20.991099 --- Component mapping reloaded.
+[GeneratedComponent] 2015-03-17 16:57:20.991265 --- Component state reloaded.
+[GeneratedComponent] 2015-03-17 16:57:20.991508 --- Component capability reloaded.
+[GeneratedComponent] 2015-03-17 16:57:20.997720 --- Component behavior reloaded.
+[GeneratedComponent] 2015-03-17 16:57:20.997929 --- Component history reloaded.
+[GeneratedComponent] 2015-03-17 16:57:20.998315 --- Component mapping reloaded.
+[GeneratedComponent] 2015-03-17 16:57:20.998457 --- Component state reloaded.
+[GeneratedComponent] 2015-03-17 16:57:20.998658 --- Component capability reloaded.
+[GeneratedComponent] 2015-03-17 16:57:20.998874 --- Serial protocol calibrated for the response
+[GeneratedComponent] 2015-03-17 16:57:21.024221 --- Processed Result: 
+[GeneratedComponent] 2015-03-17 16:58:30.859182 --- 
+
+
+[GeneratedComponent] 2015-03-17 16:58:30.859453 --- Component behavior loaded.
+[GeneratedComponent] 2015-03-17 16:58:30.859576 --- Component history loaded.
+[GeneratedComponent] 2015-03-17 16:58:30.859778 --- Component mapping loaded.
+[GeneratedComponent] 2015-03-17 16:58:30.859879 --- Component state loaded.
+[GeneratedComponent] 2015-03-17 16:58:30.859999 --- Component capability loaded.
+[GeneratedComponent] 2015-03-17 16:58:30.882131 --- Core actions mapping loaded.
+[GeneratedComponent] 2015-03-17 16:58:30.882332 --- Custom actions mapping loaded.
+[GeneratedComponent] 2015-03-17 16:58:30.890431 --- Serial protocol calibrated for the response
+[GeneratedComponent] 2015-03-17 16:58:30.918392 --- Processed Result: 
+[GeneratedComponent] 2015-03-17 17:06:57.903741 --- 
+
+
+[GeneratedComponent] 2015-03-17 17:06:57.904011 --- Component behavior loaded.
+[GeneratedComponent] 2015-03-17 17:06:57.904145 --- Component history loaded.
+[GeneratedComponent] 2015-03-17 17:06:57.904339 --- Component mapping loaded.
+[GeneratedComponent] 2015-03-17 17:06:57.904447 --- Component state loaded.
+[GeneratedComponent] 2015-03-17 17:06:57.904587 --- Component capability loaded.
+[GeneratedComponent] 2015-03-17 17:06:57.928913 --- Core actions mapping loaded.
+[GeneratedComponent] 2015-03-17 17:06:57.929102 --- Custom actions mapping loaded.
+[GeneratedComponent] 2015-03-17 17:06:57.935722 --- Error: The communicating component is not mapped in my knowledge.
+[GeneratedComponent] 2015-03-17 17:06:57.962428 --- Processed Result: 
+[GeneratedComponent] 2015-03-17 17:08:59.759394 --- 
+
+
+[GeneratedComponent] 2015-03-17 17:08:59.759634 --- Component behavior loaded.
+[GeneratedComponent] 2015-03-17 17:08:59.759804 --- Component history loaded.
+[GeneratedComponent] 2015-03-17 17:08:59.760002 --- Component mapping loaded.
+[GeneratedComponent] 2015-03-17 17:08:59.760121 --- Component state loaded.
+[GeneratedComponent] 2015-03-17 17:08:59.760235 --- Component capability loaded.
+[GeneratedComponent] 2015-03-17 17:08:59.779086 --- Core actions mapping loaded.
+[GeneratedComponent] 2015-03-17 17:08:59.779266 --- Custom actions mapping loaded.
+[GeneratedComponent] 2015-03-17 17:08:59.786791 --- Error: The communicating component is not mapped in my knowledge.
+[GeneratedComponent] 2015-03-17 17:08:59.816175 --- Processed Result: 
+[GeneratedComponent] 2015-03-17 17:08:59.816400 --- Error: No chanel to respond through
+[GeneratedComponent] 2015-03-17 17:13:40.242451 --- 
+
+
+[GeneratedComponent] 2015-03-17 17:13:40.242680 --- Component behavior loaded.
+[GeneratedComponent] 2015-03-17 17:13:40.242802 --- Component history loaded.
+[GeneratedComponent] 2015-03-17 17:13:40.242985 --- Component mapping loaded.
+[GeneratedComponent] 2015-03-17 17:13:40.243082 --- Component state loaded.
+[GeneratedComponent] 2015-03-17 17:13:40.243199 --- Component capability loaded.
+[GeneratedComponent] 2015-03-17 17:13:40.264283 --- Core actions mapping loaded.
+[GeneratedComponent] 2015-03-17 17:13:40.264464 --- Custom actions mapping loaded.
+[GeneratedComponent] 2015-03-17 17:13:40.272051 --- New request [20150315214339069124] to process:
+{
+    "component": "Component",
+    "message": {
+        "data": {
+            "time": "now"
+        },
+        "head": "sleep"
+    },
+    "protocol": "SERIAL",
+    "stamp": "20150315214339069124",
+    "status": "scheduled"
+}.
+[GeneratedComponent] 2015-03-17 17:13:54.149122 --- 
+
+
+[GeneratedComponent] 2015-03-17 17:13:54.149348 --- Component behavior loaded.
+[GeneratedComponent] 2015-03-17 17:13:54.149464 --- Component history loaded.
+[GeneratedComponent] 2015-03-17 17:13:54.149635 --- Component mapping loaded.
+[GeneratedComponent] 2015-03-17 17:13:54.149733 --- Component state loaded.
+[GeneratedComponent] 2015-03-17 17:13:54.149848 --- Component capability loaded.
+[GeneratedComponent] 2015-03-17 17:13:54.166619 --- Core actions mapping loaded.
+[GeneratedComponent] 2015-03-17 17:13:54.166840 --- Custom actions mapping loaded.
+[GeneratedComponent] 2015-03-17 17:13:54.175241 --- New request [20150315214339069124] to process:
+{
+    "component": "Component",
+    "message": {
+        "data": {
+            "time": "now"
+        },
+        "head": "sleep"
+    },
+    "protocol": "SERIAL",
+    "stamp": "20150315214339069124",
+    "status": "scheduled"
+}.
+[GeneratedComponent] 2015-03-17 17:13:54.175364 --- Error: The communicating component is not mapped in my knowledge.
+[GeneratedComponent] 2015-03-17 17:13:54.204723 --- Processed Result: 
+[GeneratedComponent] 2015-03-17 17:13:54.204890 --- Error: No chanel to respond through.
+[GeneratedComponent] 2015-03-17 17:16:04.358919 --- 
+
+
+[GeneratedComponent] 2015-03-17 17:16:04.359209 --- Component behavior loaded.
+[GeneratedComponent] 2015-03-17 17:16:04.359388 --- Component history loaded.
+[GeneratedComponent] 2015-03-17 17:16:04.359578 --- Component mapping loaded.
+[GeneratedComponent] 2015-03-17 17:16:04.359694 --- Component state loaded.
+[GeneratedComponent] 2015-03-17 17:16:04.359820 --- Component capability loaded.
+[GeneratedComponent] 2015-03-17 17:16:04.384215 --- Core actions mapping loaded.
+[GeneratedComponent] 2015-03-17 17:16:04.384412 --- Custom actions mapping loaded.
+[GeneratedComponent] 2015-03-17 17:16:04.391982 --- New request [20150315214339069124] to process:
+{
+    "component": "Component",
+    "message": {
+        "data": {
+            "time": "now"
+        },
+        "head": "sleep"
+    },
+    "protocol": "SERIAL",
+    "stamp": "20150315214339069124",
+    "status": "scheduled"
+}.
+[GeneratedComponent] 2015-03-17 17:16:04.392079 --- Error: The communicating component is not mapped in my knowledge.
+[GeneratedComponent] 2015-03-17 17:16:04.417450 --- Processed Result: 
+[GeneratedComponent] 2015-03-17 17:16:04.417605 --- Error: No chanel to respond through.
+[GeneratedComponent] 2015-03-17 17:17:07.697821 --- 
+
+
+[GeneratedComponent] 2015-03-17 17:17:07.698044 --- Component behavior loaded.
+[GeneratedComponent] 2015-03-17 17:17:07.698157 --- Component history loaded.
+[GeneratedComponent] 2015-03-17 17:17:07.698325 --- Component mapping loaded.
+[GeneratedComponent] 2015-03-17 17:17:07.698421 --- Component state loaded.
+[GeneratedComponent] 2015-03-17 17:17:07.698534 --- Component capability loaded.
+[GeneratedComponent] 2015-03-17 17:17:07.724313 --- Core actions mapping loaded.
+[GeneratedComponent] 2015-03-17 17:17:07.724510 --- Custom actions mapping loaded.
+[GeneratedComponent] 2015-03-17 17:17:07.732149 --- New request [20150315214339069124] to process:
+{
+    "component": "Component",
+    "message": {
+        "data": {
+            "time": "now"
+        },
+        "head": "sleep"
+    },
+    "protocol": "SERIAL",
+    "stamp": "20150315214339069124",
+    "status": "scheduled"
+}.
+[GeneratedComponent] 2015-03-17 17:17:07.732253 --- Error: The communicating component is not mapped in my knowledge.
+[GeneratedComponent] 2015-03-17 17:17:07.758619 --- Processed Result: 
+[GeneratedComponent] 2015-03-17 17:17:07.758800 --- Error: No chanel to respond through.
+[GeneratedComponent] 2015-03-17 17:18:06.919206 --- 
+
+
+[GeneratedComponent] 2015-03-17 17:18:06.919469 --- Component behavior loaded.
+[GeneratedComponent] 2015-03-17 17:18:06.919586 --- Component history loaded.
+[GeneratedComponent] 2015-03-17 17:18:06.919758 --- Component mapping loaded.
+[GeneratedComponent] 2015-03-17 17:18:06.919856 --- Component state loaded.
+[GeneratedComponent] 2015-03-17 17:18:06.919970 --- Component capability loaded.
+[GeneratedComponent] 2015-03-17 17:18:06.930518 --- Core actions mapping loaded.
+[GeneratedComponent] 2015-03-17 17:18:06.930671 --- Custom actions mapping loaded.
+[GeneratedComponent] 2015-03-17 17:18:06.936822 --- New request [20150315214339069124] to process:
+{
+    "component": "Component",
+    "message": {
+        "data": {
+            "time": "now"
+        },
+        "head": "sleep"
+    },
+    "protocol": "SERIAL",
+    "stamp": "20150315214339069124",
+    "status": "scheduled"
+}.
+[GeneratedComponent] 2015-03-17 17:18:06.936916 --- Error: The communicating component is not mapped in my knowledge.
+[GeneratedComponent] 2015-03-17 17:18:06.962251 --- Processed Result: 
+[GeneratedComponent] 2015-03-17 17:18:06.962401 --- Error: No chanel to respond through.
+[GeneratedComponent] 2015-03-17 17:20:40.080052 --- Component behavior loaded.
+[GeneratedComponent] 2015-03-17 17:20:40.080250 --- Component history loaded.
+[GeneratedComponent] 2015-03-17 17:20:40.080427 --- Component mapping loaded.
+[GeneratedComponent] 2015-03-17 17:20:40.080525 --- Component state loaded.
+[GeneratedComponent] 2015-03-17 17:20:40.080645 --- Component capability loaded.
+[GeneratedComponent] 2015-03-17 17:20:40.102285 --- Core actions mapping loaded.
+[GeneratedComponent] 2015-03-17 17:20:40.102476 --- Custom actions mapping loaded.
+[GeneratedComponent] 2015-03-17 17:20:40.110200 --- New request [20150315214339069124] to process:
+{
+    "component": "Component",
+    "message": {
+        "data": {
+            "time": "now"
+        },
+        "head": "sleep"
+    },
+    "protocol": "SERIAL",
+    "stamp": "20150315214339069124",
+    "status": "scheduled"
+}.
+[GeneratedComponent] 2015-03-17 17:20:40.110299 --- Error: The communicating component is not mapped in my knowledge.
+[GeneratedComponent] 2015-03-17 17:20:40.135778 --- Processed Result: 
+[GeneratedComponent] 2015-03-17 17:20:40.135988 --- Error: No chanel to respond through.
+
+[GeneratedComponent] 2015-03-17 17:22:11.322049 --- Component loading...
+[GeneratedComponent] 2015-03-17 17:22:11.322278 --- Component behavior loaded.
+[GeneratedComponent] 2015-03-17 17:22:11.322389 --- Component history loaded.
+[GeneratedComponent] 2015-03-17 17:22:11.322556 --- Component mapping loaded.
+[GeneratedComponent] 2015-03-17 17:22:11.322653 --- Component state loaded.
+[GeneratedComponent] 2015-03-17 17:22:11.322767 --- Component capability loaded.
+[GeneratedComponent] 2015-03-17 17:22:11.344827 --- Core actions mapping loaded.
+[GeneratedComponent] 2015-03-17 17:22:11.344978 --- Custom actions mapping loaded.
+[GeneratedComponent] 2015-03-17 17:22:11.351786 --- New request [20150315214339069124] to process:
+{
+    "component": "Component",
+    "message": {
+        "data": {
+            "time": "now"
+        },
+        "head": "sleep"
+    },
+    "protocol": "SERIAL",
+    "stamp": "20150315214339069124",
+    "status": "scheduled"
+}.
+[GeneratedComponent] 2015-03-17 17:22:11.351916 --- Error: The communicating component is not mapped in my knowledge.
+[GeneratedComponent] 2015-03-17 17:22:11.378993 --- Processed Result: 
+[GeneratedComponent] 2015-03-17 17:22:11.379266 --- Error: No chanel to respond through.
+
+[GeneratedComponent] 2015-03-17 17:23:01.185223 --- Component loading...
+[GeneratedComponent] 2015-03-17 17:23:01.185426 --- Component behavior loaded.
+[GeneratedComponent] 2015-03-17 17:23:01.185540 --- Component history loaded.
+[GeneratedComponent] 2015-03-17 17:23:01.185709 --- Component mapping loaded.
+[GeneratedComponent] 2015-03-17 17:23:01.185807 --- Component state loaded.
+[GeneratedComponent] 2015-03-17 17:23:01.185922 --- Component capability loaded.
+[GeneratedComponent] 2015-03-17 17:23:01.201552 --- Core actions mapping loaded.
+[GeneratedComponent] 2015-03-17 17:23:01.201722 --- Custom actions mapping loaded.
+[GeneratedComponent] 2015-03-17 17:23:01.208099 --- New request [20150315214339069124] to process:
+{
+    "component": "Component",
+    "message": {
+        "data": {
+            "time": "now"
+        },
+        "head": "sleep"
+    },
+    "protocol": "SERIAL",
+    "stamp": "20150315214339069124",
+    "status": "scheduled"
+}.
+[GeneratedComponent] 2015-03-17 17:23:01.208204 --- Error: The communicating component is not mapped in my knowledge.
+[GeneratedComponent] 2015-03-17 17:23:01.233234 --- Processed Result: 
+[GeneratedComponent] 2015-03-17 17:23:01.233401 --- Error: No chanel to respond through.
+
+[GeneratedComponent] 2015-03-17 17:24:33.743852 --- Component loading...
+[GeneratedComponent] 2015-03-17 17:24:33.744094 --- Component behavior loaded.
+[GeneratedComponent] 2015-03-17 17:24:33.744205 --- Component history loaded.
+[GeneratedComponent] 2015-03-17 17:24:33.744427 --- Component mapping loaded.
+[GeneratedComponent] 2015-03-17 17:24:33.744537 --- Component state loaded.
+[GeneratedComponent] 2015-03-17 17:24:33.744658 --- Component capability loaded.
+[GeneratedComponent] 2015-03-17 17:24:33.764186 --- Core actions mapping loaded.
+[GeneratedComponent] 2015-03-17 17:24:33.764350 --- Custom actions mapping loaded.
+[GeneratedComponent] 2015-03-17 17:24:33.772088 --- New request [20150315214339069124] to process:
+{
+    "component": "Component",
+    "message": {
+        "data": {
+            "time": "now"
+        },
+        "head": "sleep"
+    },
+    "protocol": "SERIAL",
+    "stamp": "20150315214339069124",
+    "status": "scheduled"
+}.
+[GeneratedComponent] 2015-03-17 17:24:33.772196 --- Error: The communicating component is not mapped in my knowledge.
+[GeneratedComponent] 2015-03-17 17:24:33.797827 --- Processed Result: None
+[GeneratedComponent] 2015-03-17 17:24:33.798113 --- Error: No chanel to respond through.
+
+[GeneratedComponent] 2015-03-17 17:40:05.128760 --- Component loading...
+[GeneratedComponent] 2015-03-17 17:40:05.128992 --- Component behavior loaded.
+[GeneratedComponent] 2015-03-17 17:40:05.129112 --- Component history loaded.
+[GeneratedComponent] 2015-03-17 17:40:05.129286 --- Component mapping loaded.
+[GeneratedComponent] 2015-03-17 17:40:05.129386 --- Component state loaded.
+[GeneratedComponent] 2015-03-17 17:40:05.129506 --- Component capability loaded.
+[GeneratedComponent] 2015-03-17 17:40:05.149089 --- Core actions mapping loaded.
+[GeneratedComponent] 2015-03-17 17:40:05.149267 --- Custom actions mapping loaded.
+[GeneratedComponent] 2015-03-17 17:40:05.157050 --- New request [20150315214339069124] to process:
+{
+    "component": "Component",
+    "message": {
+        "data": {
+            "time": "now"
+        },
+        "head": "sleep"
+    },
+    "protocol": "SERIAL",
+    "stamp": "20150315214339069124",
+    "status": "scheduled"
+}.
+[GeneratedComponent] 2015-03-17 17:40:05.157153 --- Error: The communicating component is not mapped in my knowledge.
+[GeneratedComponent] 2015-03-17 17:40:05.182653 --- Processed Result: None.
+[GeneratedComponent] 2015-03-17 17:40:05.182858 --- Error: No chanel to respond through.
+
+[GeneratedComponent] 2015-03-17 17:41:05.221218 --- Component loading...
+[GeneratedComponent] 2015-03-17 17:41:05.221461 --- Component behavior loaded.
+[GeneratedComponent] 2015-03-17 17:41:05.221583 --- Component history loaded.
+[GeneratedComponent] 2015-03-17 17:41:05.221758 --- Component mapping loaded.
+[GeneratedComponent] 2015-03-17 17:41:05.221863 --- Component state loaded.
+[GeneratedComponent] 2015-03-17 17:41:05.221988 --- Component capability loaded.
+[GeneratedComponent] 2015-03-17 17:41:05.239481 --- Core actions mapping loaded.
+[GeneratedComponent] 2015-03-17 17:41:05.239663 --- Custom actions mapping loaded.
+[GeneratedComponent] 2015-03-17 17:41:05.247424 --- New request [20150315214339069124] to process:
+{
+    "component": "Component",
+    "message": {
+        "data": {
+            "time": "now"
+        },
+        "head": "sleep"
+    },
+    "protocol": "SERIAL",
+    "stamp": "20150315214339069124",
+    "status": "scheduled"
+}.
+[GeneratedComponent] 2015-03-17 17:41:05.247524 --- Error: The communicating component is not mapped in my knowledge.
+[GeneratedComponent] 2015-03-17 17:41:05.274012 --- Processed Result: None.
+[GeneratedComponent] 2015-03-17 17:41:05.274173 --- Error: No chanel to respond through.
+
+[GeneratedComponent] 2015-03-17 17:42:17.883527 --- Component loading...
+[GeneratedComponent] 2015-03-17 17:42:17.883764 --- Component behavior loaded.
+[GeneratedComponent] 2015-03-17 17:42:17.883878 --- Component history loaded.
+[GeneratedComponent] 2015-03-17 17:42:17.884048 --- Component mapping loaded.
+[GeneratedComponent] 2015-03-17 17:42:17.884145 --- Component state loaded.
+[GeneratedComponent] 2015-03-17 17:42:17.884263 --- Component capability loaded.
+[GeneratedComponent] 2015-03-17 17:42:17.898219 --- Core actions mapping loaded.
+[GeneratedComponent] 2015-03-17 17:42:17.898371 --- Custom actions mapping loaded.
+[GeneratedComponent] 2015-03-17 17:42:17.904779 --- New request [20150315214339069124] to process:
+{
+    "component": "Component",
+    "message": {
+        "data": {
+            "time": "now"
+        },
+        "head": "sleep"
+    },
+    "protocol": "SERIAL",
+    "stamp": "20150315214339069124",
+    "status": "scheduled"
+}.
+[GeneratedComponent] 2015-03-17 17:42:17.904884 --- Error: The communicating component is not mapped in my knowledge.
+[GeneratedComponent] 2015-03-17 17:42:17.930188 --- Processed Result: None.
+[GeneratedComponent] 2015-03-17 17:42:17.930341 --- Error: No chanel to respond through.
+
+[GeneratedComponent] 2015-03-17 17:42:58.458539 --- Component loading...
+
+[GeneratedComponent] 2015-03-17 17:43:07.090397 --- Component loading...
+[GeneratedComponent] 2015-03-17 17:43:07.090635 --- Component behavior loaded.
+[GeneratedComponent] 2015-03-17 17:43:07.090755 --- Component history loaded.
+[GeneratedComponent] 2015-03-17 17:43:07.090931 --- Component mapping loaded.
+[GeneratedComponent] 2015-03-17 17:43:07.091035 --- Component state loaded.
+[GeneratedComponent] 2015-03-17 17:43:07.091161 --- Component capability loaded.
+[GeneratedComponent] 2015-03-17 17:43:07.104985 --- Core actions mapping loaded.
+[GeneratedComponent] 2015-03-17 17:43:07.105138 --- Custom actions mapping loaded.
+[GeneratedComponent] 2015-03-17 17:43:07.111458 --- New request [20150315214339069124] to process:
+{
+    "component": "Component",
+    "message": {
+        "data": {
+            "time": "now"
+        },
+        "head": "sleep"
+    },
+    "protocol": "SERIAL",
+    "stamp": "20150315214339069124",
+    "status": "scheduled"
+}.
+[GeneratedComponent] 2015-03-17 17:43:07.111549 --- Error: The communicating component is not mapped in my knowledge.
+[GeneratedComponent] 2015-03-17 17:43:07.138128 --- Processed Result: None.
+[GeneratedComponent] 2015-03-17 17:43:07.138261 --- Error: No chanel to respond through.
+
+[GeneratedComponent] 2015-03-17 17:43:22.762161 --- Component loading...
+[GeneratedComponent] 2015-03-17 17:43:22.762469 --- Component behavior loaded.
+[GeneratedComponent] 2015-03-17 17:43:22.762590 --- Component history loaded.
+[GeneratedComponent] 2015-03-17 17:43:22.762818 --- Component mapping loaded.
+[GeneratedComponent] 2015-03-17 17:43:22.762924 --- Component state loaded.
+[GeneratedComponent] 2015-03-17 17:43:22.763048 --- Component capability loaded.
+[GeneratedComponent] 2015-03-17 17:43:22.770932 --- Core actions mapping loaded.
+[GeneratedComponent] 2015-03-17 17:43:22.771087 --- Custom actions mapping loaded.
+[GeneratedComponent] 2015-03-17 17:43:22.777574 --- New request [20150315214339069124] to process:
+{
+    "component": "Component",
+    "message": {
+        "data": {
+            "time": "now"
+        },
+        "head": "sleep"
+    },
+    "protocol": "SERIAL",
+    "stamp": "20150315214339069124",
+    "status": "scheduled"
+}.
+[GeneratedComponent] 2015-03-17 17:43:22.777675 --- Error: The communicating component is not mapped in my knowledge.
+[GeneratedComponent] 2015-03-17 17:43:22.803216 --- Processed Result: None.
+[GeneratedComponent] 2015-03-17 17:43:22.803382 --- Error: No chanel to respond through.
+
+[GeneratedComponent] 2015-03-17 17:43:57.299667 --- Component loading...
+[GeneratedComponent] 2015-03-17 17:43:57.299885 --- Component behavior loaded.
+[GeneratedComponent] 2015-03-17 17:43:57.300015 --- Component history loaded.
+[GeneratedComponent] 2015-03-17 17:43:57.300183 --- Component mapping loaded.
+[GeneratedComponent] 2015-03-17 17:43:57.300278 --- Component state loaded.
+[GeneratedComponent] 2015-03-17 17:43:57.300395 --- Component capability loaded.
+[GeneratedComponent] 2015-03-17 17:43:57.310586 --- Core actions mapping loaded.
+[GeneratedComponent] 2015-03-17 17:43:57.310716 --- Custom actions mapping loaded.
+[GeneratedComponent] 2015-03-17 17:43:57.317104 --- New request [20150315214339069124] to process:
+{
+    "component": "Component",
+    "message": {
+        "data": {
+            "time": "now"
+        },
+        "head": "sleep"
+    },
+    "protocol": "SERIAL",
+    "stamp": "20150315214339069124",
+    "status": "scheduled"
+}.
+
+[GeneratedComponent] 2015-03-17 17:44:10.067784 --- Component loading...
+[GeneratedComponent] 2015-03-17 17:44:10.068002 --- Component behavior loaded.
+[GeneratedComponent] 2015-03-17 17:44:10.068114 --- Component history loaded.
+[GeneratedComponent] 2015-03-17 17:44:10.068280 --- Component mapping loaded.
+[GeneratedComponent] 2015-03-17 17:44:10.068377 --- Component state loaded.
+[GeneratedComponent] 2015-03-17 17:44:10.068493 --- Component capability loaded.
+[GeneratedComponent] 2015-03-17 17:44:10.097108 --- Core actions mapping loaded.
+[GeneratedComponent] 2015-03-17 17:44:10.097298 --- Custom actions mapping loaded.
+[GeneratedComponent] 2015-03-17 17:44:10.105418 --- New request [20150315214339069124] to process:
+{
+    "component": "Component",
+    "message": {
+        "data": {
+            "time": "now"
+        },
+        "head": "sleep"
+    },
+    "protocol": "SERIAL",
+    "stamp": "20150315214339069124",
+    "status": "scheduled"
+}.
+[GeneratedComponent] 2015-03-17 17:44:10.105597 --- Error: The communicating component is not mapped in my knowledge.
+[GeneratedComponent] 2015-03-17 17:44:10.131592 --- Processed Result: None.
+[GeneratedComponent] 2015-03-17 17:44:10.131824 --- Error: No chanel to respond through.
+
+[GeneratedComponent] 2015-03-17 17:44:38.324528 --- Component loading...
+[GeneratedComponent] 2015-03-17 17:44:38.324733 --- Component behavior loaded.
+[GeneratedComponent] 2015-03-17 17:44:38.324847 --- Component history loaded.
+[GeneratedComponent] 2015-03-17 17:44:38.325017 --- Component mapping loaded.
+[GeneratedComponent] 2015-03-17 17:44:38.325115 --- Component state loaded.
+[GeneratedComponent] 2015-03-17 17:44:38.325230 --- Component capability loaded.
+[GeneratedComponent] 2015-03-17 17:44:38.330805 --- Core actions mapping loaded.
+[GeneratedComponent] 2015-03-17 17:44:38.330937 --- Custom actions mapping loaded.
+[GeneratedComponent] 2015-03-17 17:44:38.337449 --- New request [20150315214339069124] to process:
+{
+    "component": "Component",
+    "message": {
+        "data": {
+            "time": "now"
+        },
+        "head": "sleep"
+    },
+    "protocol": "SERIAL",
+    "stamp": "20150315214339069124",
+    "status": "scheduled"
+}.
+[GeneratedComponent] 2015-03-17 17:44:38.337553 --- Error: The communicating component is not mapped in my knowledge.
+[GeneratedComponent] 2015-03-17 17:44:38.362820 --- Processed Result: None.
+[GeneratedComponent] 2015-03-17 17:44:38.362979 --- Error: No chanel to respond through.
+
+[GeneratedComponent] 2015-03-17 17:45:52.738772 --- Component loading...
+[GeneratedComponent] 2015-03-17 17:45:52.738977 --- Component behavior loaded.
+[GeneratedComponent] 2015-03-17 17:45:52.739094 --- Component history loaded.
+[GeneratedComponent] 2015-03-17 17:45:52.739264 --- Component mapping loaded.
+[GeneratedComponent] 2015-03-17 17:45:52.739359 --- Component state loaded.
+[GeneratedComponent] 2015-03-17 17:45:52.739479 --- Component capability loaded.
+[GeneratedComponent] 2015-03-17 17:45:52.741188 --- Core actions mapping loaded.
+[GeneratedComponent] 2015-03-17 17:45:52.741298 --- Custom actions mapping loaded.
+[GeneratedComponent] 2015-03-17 17:45:52.747743 --- New request [20150315214339069124] to process:
+{
+    "component": "Component",
+    "message": {
+        "data": {
+            "time": "now"
+        },
+        "head": "sleep"
+    },
+    "protocol": "SERIAL",
+    "stamp": "20150315214339069124",
+    "status": "scheduled"
+}.
+[GeneratedComponent] 2015-03-17 17:45:52.747853 --- Error: The communicating component is not mapped in my knowledge.
+[GeneratedComponent] 2015-03-17 17:45:52.778241 --- Processed Result: None.
+[GeneratedComponent] 2015-03-17 17:45:52.778449 --- Error: No chanel to respond through.
+
+[GeneratedComponent] 2015-03-17 18:27:54.964381 --- Component loading...
+[GeneratedComponent] 2015-03-17 18:27:54.964675 --- Component behavior loaded.
+[GeneratedComponent] 2015-03-17 18:27:54.964813 --- Component history loaded.
+[GeneratedComponent] 2015-03-17 18:27:54.964996 --- Component mapping loaded.
+[GeneratedComponent] 2015-03-17 18:27:54.965098 --- Component state loaded.
+[GeneratedComponent] 2015-03-17 18:27:54.965221 --- Component capability loaded.
+[GeneratedComponent] 2015-03-17 18:27:54.966751 --- Core actions mapping loaded.
+[GeneratedComponent] 2015-03-17 18:27:54.966865 --- Custom actions mapping loaded.
+[GeneratedComponent] 2015-03-17 18:27:54.972293 --- New request [20150315214339069124] to process:
+{
+    "component": "Component",
+    "message": {
+        "data": {
+            "time": "now"
+        },
+        "head": "sleep"
+    },
+    "protocol": "SERIAL",
+    "stamp": "20150315214339069124",
+    "status": "scheduled"
+}.
+[GeneratedComponent] 2015-03-17 18:27:54.972387 --- Error: The communicating component is not mapped in my knowledge.
+[GeneratedComponent] 2015-03-17 18:27:54.999542 --- Processed Result: None.
+[GeneratedComponent] 2015-03-17 18:27:54.999697 --- Error: No chanel to respond through.
+
+[GeneratedComponent] 2015-03-17 18:31:25.187249 --- Component loading...
+[GeneratedComponent] 2015-03-17 18:31:25.187439 --- Component behavior loaded.
+[GeneratedComponent] 2015-03-17 18:31:25.191639 --- Component history loaded.
+[GeneratedComponent] 2015-03-17 18:31:25.191819 --- Component mapping loaded.
+[GeneratedComponent] 2015-03-17 18:31:25.191913 --- Component state loaded.
+[GeneratedComponent] 2015-03-17 18:31:25.192028 --- Component capability loaded.
+[GeneratedComponent] 2015-03-17 18:31:25.193693 --- Core actions mapping loaded.
+[GeneratedComponent] 2015-03-17 18:31:25.193797 --- Custom actions mapping loaded.
+[GeneratedComponent] 2015-03-17 18:31:25.199204 --- New request [20150315214339069124] to process:
+{
+    "component": "Arduino1421",
+    "message": {
+        "data": {
+            "time": "now"
+        },
+        "head": "sleep"
+    },
+    "protocol": "SERIAL",
+    "stamp": "20150315214339069124",
+    "status": "scheduled"
+}.
+[GeneratedComponent] 2015-03-17 18:31:25.199307 --- Serial protocol calibrated for the response.
+[GeneratedComponent] 2015-03-17 18:31:25.228832 --- Processed Result: None.
+[GeneratedComponent] 2015-03-17 18:31:25.229051 --- Error: No chanel to respond through.
+
+[GeneratedComponent] 2015-03-17 18:33:57.203802 --- Component loading...
+[GeneratedComponent] 2015-03-17 18:33:57.204013 --- Component behavior loaded.
+[GeneratedComponent] 2015-03-17 18:33:57.208209 --- Component history loaded.
+[GeneratedComponent] 2015-03-17 18:33:57.208392 --- Component mapping loaded.
+[GeneratedComponent] 2015-03-17 18:33:57.208488 --- Component state loaded.
+[GeneratedComponent] 2015-03-17 18:33:57.208607 --- Component capability loaded.
+[GeneratedComponent] 2015-03-17 18:33:57.210145 --- Core actions mapping loaded.
+[GeneratedComponent] 2015-03-17 18:33:57.210248 --- Custom actions mapping loaded.
+[GeneratedComponent] 2015-03-17 18:33:57.215826 --- New request [20150315214339069124] to process:
+{
+    "component": "Arduino1421",
+    "message": {
+        "data": {
+            "time": "now"
+        },
+        "head": "sleep"
+    },
+    "protocol": "SERIAL",
+    "stamp": "20150315214339069124",
+    "status": "scheduled"
+}.
+[GeneratedComponent] 2015-03-17 18:33:57.215923 --- Serial protocol calibrated for the response.
+[GeneratedComponent] 2015-03-17 18:33:57.241719 --- Processed Result: None.
+[GeneratedComponent] 2015-03-17 18:33:57.241927 --- Error: No chanel to respond through.
+
+[GeneratedComponent] 2015-03-17 20:17:29.426574 --- Component loading...
+[GeneratedComponent] 2015-03-17 20:17:29.426798 --- Component behavior loaded.
+[GeneratedComponent] 2015-03-17 20:17:29.426914 --- Component history loaded.
+[GeneratedComponent] 2015-03-17 20:17:29.427104 --- Component mapping loaded.
+[GeneratedComponent] 2015-03-17 20:17:29.427197 --- Component state loaded.
+[GeneratedComponent] 2015-03-17 20:17:29.427315 --- Component capability loaded.
+[GeneratedComponent] 2015-03-17 20:17:29.432417 --- Core actions mapping loaded.
+[GeneratedComponent] 2015-03-17 20:17:29.432574 --- Custom actions mapping loaded.
+[GeneratedComponent] 2015-03-17 20:17:29.438274 --- New request [20150315214339069124] to process:
+{
+    "component": "Arduino1421",
+    "message": {
+        "data": {
+            "time": "now"
+        },
+        "head": "sleep"
+    },
+    "protocol": "SERIAL",
+    "stamp": "20150315214339069124",
+    "status": "scheduled"
+}.
+[GeneratedComponent] 2015-03-17 20:17:29.438372 --- Serial protocol calibrated for the response.
+[GeneratedComponent] 2015-03-17 20:17:29.464013 --- Processed Result: None.
+[GeneratedComponent] 2015-03-17 20:17:39.466937 --- Error: No chanel to respond through.
+
+[GeneratedComponent] 2015-03-17 20:18:48.407675 --- Component loading...
+[GeneratedComponent] 2015-03-17 20:18:48.407891 --- Component behavior loaded.
+[GeneratedComponent] 2015-03-17 20:18:48.412070 --- Component history loaded.
+[GeneratedComponent] 2015-03-17 20:18:48.412251 --- Component mapping loaded.
+[GeneratedComponent] 2015-03-17 20:18:48.412372 --- Component state loaded.
+[GeneratedComponent] 2015-03-17 20:18:48.412508 --- Component capability loaded.
+[GeneratedComponent] 2015-03-17 20:18:48.414285 --- Core actions mapping loaded.
+[GeneratedComponent] 2015-03-17 20:18:48.414410 --- Custom actions mapping loaded.
+[GeneratedComponent] 2015-03-17 20:18:48.420319 --- New request [20150315214339069124] to process:
+{
+    "component": "Arduino1421",
+    "message": {
+        "data": {
+            "time": "now"
+        },
+        "head": "sleep"
+    },
+    "protocol": "SERIAL",
+    "stamp": "20150315214339069124",
+    "status": "scheduled"
+}.
+[GeneratedComponent] 2015-03-17 20:18:48.420445 --- Serial protocol calibrated for the response.
+[GeneratedComponent] 2015-03-17 20:18:48.446515 --- Processed Result: None.
+[GeneratedComponent] 2015-03-17 20:18:58.446979 --- Error: No chanel to respond through.
+[GeneratedComponent] 2015-03-17 20:18:58.448276 --- Component state reloaded.
+[GeneratedComponent] 2015-03-17 20:18:58.448677 --- New request [20150315214500380505] to process:
+{
+    "component": "Component",
+    "message": {
+        "data": {
+            "time": "now"
+        },
+        "head": "sleep"
+    },
+    "protocol": "TCP",
+    "stamp": "20150315214500380505",
+    "status": "scheduled"
+}.
+[GeneratedComponent] 2015-03-17 20:18:58.448767 --- Error: The communicating component is not mapped in my knowledge.
+[GeneratedComponent] 2015-03-17 20:18:58.476183 --- Processed Result: None.
+[GeneratedComponent] 2015-03-17 20:19:08.477626 --- Error: No chanel to respond through.
+[GeneratedComponent] 2015-03-17 20:19:08.480191 --- New request [20150315214551875863] to process:
+{
+    "component": "Component",
+    "message": {
+        "data": {
+            "time": "now"
+        },
+        "head": "wake"
+    },
+    "protocol": "UDP",
+    "stamp": "20150315214551875863",
+    "status": "scheduled"
+}.
+[GeneratedComponent] 2015-03-17 20:19:08.482158 --- Error: The communicating component is not mapped in my knowledge.
+[GeneratedComponent] 2015-03-17 20:19:08.521136 --- Processed Result: {u'consistency': u'Initial',
+ u'created': u'timestamp',
+ u'requirement': u'requirementID',
+ u'status': u'SLEEP'}
+.
+[GeneratedComponent] 2015-03-17 20:19:18.525134 --- Error: No chanel to respond through.
+[GeneratedComponent] 2015-03-17 20:19:18.526632 --- Component state reloaded.
+[GeneratedComponent] 2015-03-17 20:19:18.527280 --- New request [20150315220017521783] to process:
+{
+    "component": "Component",
+    "message": {
+        "data": {
+            "time": "now"
+        },
+        "head": "sleep"
+    },
+    "protocol": "TELNET",
+    "stamp": "20150315220017521783",
+    "status": "scheduled"
+}.
+[GeneratedComponent] 2015-03-17 20:19:18.527422 --- Error: The communicating component is not mapped in my knowledge.
+[GeneratedComponent] 2015-03-17 20:19:18.553414 --- Processed Result: None.
+[GeneratedComponent] 2015-03-17 20:19:28.557813 --- Error: No chanel to respond through.
+[GeneratedComponent] 2015-03-17 20:19:28.559865 --- Component state reloaded.
+[GeneratedComponent] 2015-03-17 20:19:28.563176 --- New request [20150315221702990530] to process:
+{
+    "component": "Component",
+    "message": {
+        "data": {
+            "time": "now"
+        },
+        "head": "sleep"
+    },
+    "protocol": "SSH",
+    "stamp": "20150315221702990530",
+    "status": "scheduled"
+}.
+[GeneratedComponent] 2015-03-17 20:19:28.563369 --- Error: The communicating component is not mapped in my knowledge.
+[GeneratedComponent] 2015-03-17 20:19:28.608308 --- Processed Result: None.
+[GeneratedComponent] 2015-03-17 20:19:38.608967 --- Error: No chanel to respond through.
+[GeneratedComponent] 2015-03-17 20:19:38.611644 --- New request [20150316205724424409] to process:
+{
+    "component": "Component",
+    "message": {
+        "data": {
+            "time": "now"
+        },
+        "head": "wake"
+    },
+    "protocol": "SERIAL",
+    "stamp": "20150316205724424409",
+    "status": "scheduled"
+}.
+[GeneratedComponent] 2015-03-17 20:19:38.611798 --- Error: The communicating component is not mapped in my knowledge.
+[GeneratedComponent] 2015-03-17 20:19:38.657578 --- Processed Result: {u'consistency': u'Initial',
+ u'created': u'timestamp',
+ u'requirement': u'requirementID',
+ u'status': u'SLEEP'}
+.
+[GeneratedComponent] 2015-03-17 20:19:48.660239 --- Error: No chanel to respond through.
+[GeneratedComponent] 2015-03-17 20:19:48.661439 --- Component state reloaded.
+[GeneratedComponent] 2015-03-17 20:19:48.661840 --- New request [20150316205754426336] to process:
+{
+    "component": "Component",
+    "message": {
+        "data": {
+            "time": "now"
+        },
+        "head": "sleep"
+    },
+    "protocol": "SERIAL",
+    "stamp": "20150316205754426336",
+    "status": "scheduled"
+}.
+[GeneratedComponent] 2015-03-17 20:19:48.661929 --- Error: The communicating component is not mapped in my knowledge.
+[GeneratedComponent] 2015-03-17 20:19:48.691872 --- Processed Result: None.
+[GeneratedComponent] 2015-03-17 20:19:58.692852 --- Error: No chanel to respond through.
+[GeneratedComponent] 2015-03-17 20:19:58.694465 --- Component state reloaded.
+[GeneratedComponent] 2015-03-17 20:19:58.694999 --- New request [20150316210004730048] to process:
+{
+    "component": "Component",
+    "message": {
+        "data": {
+            "time": "now"
+        },
+        "head": "wake"
+    },
+    "protocol": "SSH",
+    "stamp": "20150316210004730048",
+    "status": "scheduled"
+}.
+[GeneratedComponent] 2015-03-17 20:19:58.695118 --- Error: The communicating component is not mapped in my knowledge.
+[GeneratedComponent] 2015-03-17 20:19:58.729441 --- Processed Result: {u'consistency': u'Initial',
+ u'created': u'timestamp',
+ u'requirement': u'requirementID',
+ u'status': u'SLEEP'}
+.
+[GeneratedComponent] 2015-03-17 20:20:08.732881 --- Error: No chanel to respond through.
+[GeneratedComponent] 2015-03-17 20:20:13.738182 --- Component state reloaded.
+
+[GeneratedComponent] 2015-03-17 20:51:31.013530 --- Component loading...
+[GeneratedComponent] 2015-03-17 20:51:31.014039 --- Component behavior loaded.
+[GeneratedComponent] 2015-03-17 20:51:31.014170 --- Component history loaded.
+[GeneratedComponent] 2015-03-17 20:51:31.014442 --- Component mapping loaded.
+[GeneratedComponent] 2015-03-17 20:51:31.014551 --- Component state loaded.
+[GeneratedComponent] 2015-03-17 20:51:31.014681 --- Component capability loaded.
+[GeneratedComponent] 2015-03-17 20:51:31.016305 --- Core actions mapping loaded.
+[GeneratedComponent] 2015-03-17 20:51:31.016417 --- Custom actions mapping loaded.
+[GeneratedComponent] 2015-03-17 20:51:31.016730 --- Error: Unable to open capability[SERIAL].
+[GeneratedComponent] 2015-03-17 20:51:31.017420 --- Error: Unable to open capability[TCP].
+[GeneratedComponent] 2015-03-17 20:51:31.017497 --- Error: Unable to open capability[UDP].
+[GeneratedComponent] 2015-03-17 20:51:31.017614 --- Error: Unable to open capability[TELNET].
+[GeneratedComponent] 2015-03-17 20:51:31.017698 --- Unsuported: Capability[SSH] not yet supported.
+[GeneratedComponent] 2015-03-17 20:51:31.017777 --- Unsuported: Capability[HTTP] not yet supported.
+
+[GeneratedComponent] 2015-03-17 20:54:10.566601 --- Component loading...
+[GeneratedComponent] 2015-03-17 20:54:10.566801 --- Component behavior loaded.
+[GeneratedComponent] 2015-03-17 20:54:10.566926 --- Component history loaded.
+[GeneratedComponent] 2015-03-17 20:54:10.567115 --- Component mapping loaded.
+[GeneratedComponent] 2015-03-17 20:54:10.567213 --- Component state loaded.
+[GeneratedComponent] 2015-03-17 20:54:10.567332 --- Component capability loaded.
+[GeneratedComponent] 2015-03-17 20:54:10.568975 --- Core actions mapping loaded.
+[GeneratedComponent] 2015-03-17 20:54:10.569088 --- Custom actions mapping loaded.
+[GeneratedComponent] 2015-03-17 20:54:10.569417 --- Server: ../listen/serial/server.py 
+[GeneratedComponent] 2015-03-17 20:54:10.569726 --- Error: Unable to open capability[SERIAL].
+[GeneratedComponent] 2015-03-17 20:54:10.569799 --- Server: ../listen/tcp/server.py 
+[GeneratedComponent] 2015-03-17 20:54:10.569925 --- Error: Unable to open capability[TCP].
+[GeneratedComponent] 2015-03-17 20:54:10.570037 --- Server: ../listen/udp/server.py 
+[GeneratedComponent] 2015-03-17 20:54:10.570146 --- Error: Unable to open capability[UDP].
+[GeneratedComponent] 2015-03-17 20:54:10.570224 --- Server: ../listen/telnet/server.py 
+[GeneratedComponent] 2015-03-17 20:54:10.570308 --- Error: Unable to open capability[TELNET].
+[GeneratedComponent] 2015-03-17 20:54:10.570393 --- Server: ../listen/ssh/server.py 
+[GeneratedComponent] 2015-03-17 20:54:10.570480 --- Unsuported: Capability[SSH] not yet supported.
+[GeneratedComponent] 2015-03-17 20:54:10.570556 --- Server: ../listen/http/server.py 
+[GeneratedComponent] 2015-03-17 20:54:10.570627 --- Unsuported: Capability[HTTP] not yet supported.
+
+[GeneratedComponent] 2015-03-17 20:56:02.082517 --- Component loading...
+[GeneratedComponent] 2015-03-17 20:56:02.082722 --- Component behavior loaded.
+[GeneratedComponent] 2015-03-17 20:56:02.082853 --- Component history loaded.
+[GeneratedComponent] 2015-03-17 20:56:02.083031 --- Component mapping loaded.
+[GeneratedComponent] 2015-03-17 20:56:02.083147 --- Component state loaded.
+[GeneratedComponent] 2015-03-17 20:56:02.083310 --- Component capability loaded.
+[GeneratedComponent] 2015-03-17 20:56:02.084936 --- Core actions mapping loaded.
+[GeneratedComponent] 2015-03-17 20:56:02.085041 --- Custom actions mapping loaded.
+[GeneratedComponent] 2015-03-17 20:56:02.085368 --- Server: ../listen/serial/server.py 
+[GeneratedComponent] 2015-03-17 20:56:02.088666 --- Error: Unable to open capability[SERIAL].
+[GeneratedComponent] 2015-03-17 20:56:02.088991 --- Server: ../listen/tcp/server.py 
+[GeneratedComponent] 2015-03-17 20:56:02.089240 --- Error: Unable to open capability[TCP].
+[GeneratedComponent] 2015-03-17 20:56:02.089477 --- Server: ../listen/udp/server.py 
+[GeneratedComponent] 2015-03-17 20:56:02.089970 --- Error: Unable to open capability[UDP].
+[GeneratedComponent] 2015-03-17 20:56:02.090191 --- Server: ../listen/telnet/server.py 
+[GeneratedComponent] 2015-03-17 20:56:02.090842 --- Error: Unable to open capability[TELNET].
+[GeneratedComponent] 2015-03-17 20:56:02.091094 --- Server: ../listen/ssh/server.py 
+[GeneratedComponent] 2015-03-17 20:56:02.091746 --- Unsuported: Capability[SSH] not yet supported.
+[GeneratedComponent] 2015-03-17 20:56:02.092004 --- Server: ../listen/http/server.py 
+[GeneratedComponent] 2015-03-17 20:56:02.092829 --- Unsuported: Capability[HTTP] not yet supported.
+
+[GeneratedComponent] 2015-03-17 20:56:29.616838 --- Component loading...
+[GeneratedComponent] 2015-03-17 20:56:29.617070 --- Component behavior loaded.
+[GeneratedComponent] 2015-03-17 20:56:29.617201 --- Component history loaded.
+[GeneratedComponent] 2015-03-17 20:56:29.617400 --- Component mapping loaded.
+[GeneratedComponent] 2015-03-17 20:56:29.617500 --- Component state loaded.
+[GeneratedComponent] 2015-03-17 20:56:29.617659 --- Component capability loaded.
+[GeneratedComponent] 2015-03-17 20:56:29.619286 --- Core actions mapping loaded.
+[GeneratedComponent] 2015-03-17 20:56:29.619432 --- Custom actions mapping loaded.
+[GeneratedComponent] 2015-03-17 20:56:29.619747 --- Server: ../listen/serial/server.py 
+[GeneratedComponent] 2015-03-17 20:56:29.627493 --- Error: Unable to open capability[SERIAL].
+[GeneratedComponent] 2015-03-17 20:56:29.627628 --- Server: ../listen/tcp/server.py 
+[GeneratedComponent] 2015-03-17 20:56:29.627803 --- Error: Unable to open capability[TCP].
+[GeneratedComponent] 2015-03-17 20:56:29.627893 --- Server: ../listen/udp/server.py 
+[GeneratedComponent] 2015-03-17 20:56:29.627977 --- Error: Unable to open capability[UDP].
+[GeneratedComponent] 2015-03-17 20:56:29.628053 --- Server: ../listen/telnet/server.py 
+[GeneratedComponent] 2015-03-17 20:56:29.628172 --- Error: Unable to open capability[TELNET].
+[GeneratedComponent] 2015-03-17 20:56:29.628248 --- Server: ../listen/ssh/server.py 
+[GeneratedComponent] 2015-03-17 20:56:29.628365 --- Unsuported: Capability[SSH] not yet supported.
+[GeneratedComponent] 2015-03-17 20:56:29.628457 --- Server: ../listen/http/server.py 
+[GeneratedComponent] 2015-03-17 20:56:29.628537 --- Unsuported: Capability[HTTP] not yet supported.
+
+[GeneratedComponent] 2015-03-17 20:57:47.136216 --- Component loading...
+[GeneratedComponent] 2015-03-17 20:57:47.136454 --- Component behavior loaded.
+[GeneratedComponent] 2015-03-17 20:57:47.136588 --- Component history loaded.
+[GeneratedComponent] 2015-03-17 20:57:47.136804 --- Component mapping loaded.
+[GeneratedComponent] 2015-03-17 20:57:47.136917 --- Component state loaded.
+[GeneratedComponent] 2015-03-17 20:57:47.137050 --- Component capability loaded.
+[GeneratedComponent] 2015-03-17 20:57:47.138705 --- Core actions mapping loaded.
+[GeneratedComponent] 2015-03-17 20:57:47.138826 --- Custom actions mapping loaded.
+[GeneratedComponent] 2015-03-17 20:57:47.139121 --- Server: ../listen/serial/server.py 
+[GeneratedComponent] 2015-03-17 20:57:47.142809 --- Error: Unable to open capability[SERIAL].
+[GeneratedComponent] 2015-03-17 20:57:47.142920 --- Server: ../listen/tcp/server.py 
+[GeneratedComponent] 2015-03-17 20:57:47.143076 --- Error: Unable to open capability[TCP].
+[GeneratedComponent] 2015-03-17 20:57:47.143168 --- Server: ../listen/udp/server.py 
+[GeneratedComponent] 2015-03-17 20:57:47.143265 --- Error: Unable to open capability[UDP].
+[GeneratedComponent] 2015-03-17 20:57:47.143368 --- Server: ../listen/telnet/server.py 
+[GeneratedComponent] 2015-03-17 20:57:47.143452 --- Error: Unable to open capability[TELNET].
+[GeneratedComponent] 2015-03-17 20:57:47.143529 --- Server: ../listen/ssh/server.py 
+[GeneratedComponent] 2015-03-17 20:57:47.143612 --- Unsuported: Capability[SSH] not yet supported.
+[GeneratedComponent] 2015-03-17 20:57:47.143693 --- Server: ../listen/http/server.py 
+[GeneratedComponent] 2015-03-17 20:57:47.143776 --- Unsuported: Capability[HTTP] not yet supported.
+
+[GeneratedComponent] 2015-03-17 21:04:14.993698 --- Component loading...
+[GeneratedComponent] 2015-03-17 21:04:14.993966 --- Component behavior loaded.
+[GeneratedComponent] 2015-03-17 21:04:14.994106 --- Component history loaded.
+[GeneratedComponent] 2015-03-17 21:04:14.994316 --- Component mapping loaded.
+[GeneratedComponent] 2015-03-17 21:04:14.994449 --- Component state loaded.
+[GeneratedComponent] 2015-03-17 21:04:14.994595 --- Component capability loaded.
+[GeneratedComponent] 2015-03-17 21:04:14.996355 --- Core actions mapping loaded.
+[GeneratedComponent] 2015-03-17 21:04:14.996466 --- Custom actions mapping loaded.
+[GeneratedComponent] 2015-03-17 21:04:14.996766 --- Server: ../listen/serial/server.py 
+[GeneratedComponent] 2015-03-17 21:04:14.999187 --- Capability [SERIAL] activated.
+[GeneratedComponent] 2015-03-17 21:04:14.999283 --- Server: ../listen/tcp/server.py 
+[GeneratedComponent] 2015-03-17 21:04:14.999440 --- Error: Unable to open capability[TCP].
+[GeneratedComponent] 2015-03-17 21:04:14.999539 --- Server: ../listen/udp/server.py 
+[GeneratedComponent] 2015-03-17 21:04:14.999655 --- Error: Unable to open capability[UDP].
+[GeneratedComponent] 2015-03-17 21:04:14.999768 --- Server: ../listen/telnet/server.py 
+[GeneratedComponent] 2015-03-17 21:04:15.002121 --- Capability [TELNET] activated.
+[GeneratedComponent] 2015-03-17 21:04:15.002274 --- Server: ../listen/ssh/server.py 
+[GeneratedComponent] 2015-03-17 21:04:15.002381 --- Unsuported: Capability[SSH] not yet supported.
+[GeneratedComponent] 2015-03-17 21:04:15.002477 --- Server: ../listen/http/server.py 
+[GeneratedComponent] 2015-03-17 21:04:15.002622 --- Unsuported: Capability[HTTP] not yet supported.
+
+[GeneratedComponent] 2015-03-17 21:13:03.378956 --- Component loading...
+[GeneratedComponent] 2015-03-17 21:13:03.379165 --- Component behavior loaded.
+[GeneratedComponent] 2015-03-17 21:13:03.379309 --- Component history loaded.
+[GeneratedComponent] 2015-03-17 21:13:03.379537 --- Component mapping loaded.
+[GeneratedComponent] 2015-03-17 21:13:03.379658 --- Component state loaded.
+[GeneratedComponent] 2015-03-17 21:13:03.379815 --- Component capability loaded.
+[GeneratedComponent] 2015-03-17 21:13:03.381525 --- Core actions mapping loaded.
+[GeneratedComponent] 2015-03-17 21:13:03.381635 --- Custom actions mapping loaded.
+[GeneratedComponent] 2015-03-17 21:13:03.381930 --- Server: ../listen/serial/server.py 
+[GeneratedComponent] 2015-03-17 21:13:03.384388 --- Capability [SERIAL] activated.
+[GeneratedComponent] 2015-03-17 21:13:03.384483 --- Server: ../listen/tcp/server.py 
+[GeneratedComponent] 2015-03-17 21:13:03.384620 --- Error: Unable to open capability[TCP].
+[GeneratedComponent] 2015-03-17 21:13:03.384719 --- Server: ../listen/udp/server.py 
+[GeneratedComponent] 2015-03-17 21:13:03.384835 --- Error: Unable to open capability[UDP].
+[GeneratedComponent] 2015-03-17 21:13:03.384981 --- Server: ../listen/telnet/server.py 
+[GeneratedComponent] 2015-03-17 21:13:03.385118 --- Command: python ../listen/telnet/server.py  --host localhost --port 6020 &
+[GeneratedComponent] 2015-03-17 21:13:03.387172 --- Capability [TELNET] activated.
+[GeneratedComponent] 2015-03-17 21:13:03.387282 --- Server: ../listen/ssh/server.py 
+[GeneratedComponent] 2015-03-17 21:13:03.387394 --- Unsuported: Capability[SSH] not yet supported.
+[GeneratedComponent] 2015-03-17 21:13:03.387547 --- Server: ../listen/http/server.py 
+[GeneratedComponent] 2015-03-17 21:13:03.387715 --- Unsuported: Capability[HTTP] not yet supported.
+
+[GeneratedComponent] 2015-03-17 21:15:37.846405 --- Component loading...
+[GeneratedComponent] 2015-03-17 21:15:37.846634 --- Component behavior loaded.
+[GeneratedComponent] 2015-03-17 21:15:37.846757 --- Component history loaded.
+[GeneratedComponent] 2015-03-17 21:15:37.846959 --- Component mapping loaded.
+[GeneratedComponent] 2015-03-17 21:15:37.847106 --- Component state loaded.
+[GeneratedComponent] 2015-03-17 21:15:37.847315 --- Component capability loaded.
+[GeneratedComponent] 2015-03-17 21:15:37.849034 --- Core actions mapping loaded.
+[GeneratedComponent] 2015-03-17 21:15:37.849156 --- Custom actions mapping loaded.
+[GeneratedComponent] 2015-03-17 21:15:37.849495 --- Server: ../listen/serial/server.py 
+[GeneratedComponent] 2015-03-17 21:15:37.849814 --- Command: python ../listen/serial/server.py  /dev/ttys000 9600 5 &
+[GeneratedComponent] 2015-03-17 21:15:37.851967 --- Capability [SERIAL] activated.
+[GeneratedComponent] 2015-03-17 21:15:37.852060 --- Server: ../listen/tcp/server.py 
+[GeneratedComponent] 2015-03-17 21:15:37.852177 --- Error: Unable to open capability[TCP].
+[GeneratedComponent] 2015-03-17 21:15:37.852317 --- Server: ../listen/udp/server.py 
+[GeneratedComponent] 2015-03-17 21:15:37.852402 --- Error: Unable to open capability[UDP].
+[GeneratedComponent] 2015-03-17 21:15:37.852498 --- Server: ../listen/telnet/server.py 
+[GeneratedComponent] 2015-03-17 21:15:37.852645 --- Command: python ../listen/telnet/server.py  --host localhost --port 6020 &
+[GeneratedComponent] 2015-03-17 21:15:37.854681 --- Capability [TELNET] activated.
+[GeneratedComponent] 2015-03-17 21:15:37.854814 --- Server: ../listen/ssh/server.py 
+[GeneratedComponent] 2015-03-17 21:15:37.854928 --- Unsuported: Capability[SSH] not yet supported.
+[GeneratedComponent] 2015-03-17 21:15:37.855084 --- Server: ../listen/http/server.py 
+[GeneratedComponent] 2015-03-17 21:15:37.855168 --- Unsuported: Capability[HTTP] not yet supported.
+
+[GeneratedComponent] 2015-03-17 21:17:13.794568 --- Component loading...
+[GeneratedComponent] 2015-03-17 21:17:13.794814 --- Component behavior loaded.
+[GeneratedComponent] 2015-03-17 21:17:13.794962 --- Component history loaded.
+[GeneratedComponent] 2015-03-17 21:17:13.795174 --- Component mapping loaded.
+[GeneratedComponent] 2015-03-17 21:17:13.795279 --- Component state loaded.
+[GeneratedComponent] 2015-03-17 21:17:13.795429 --- Component capability loaded.
+[GeneratedComponent] 2015-03-17 21:17:13.797027 --- Core actions mapping loaded.
+[GeneratedComponent] 2015-03-17 21:17:13.797131 --- Custom actions mapping loaded.
+[GeneratedComponent] 2015-03-17 21:17:13.797416 --- Server: ../listen/serial/server.py 
+[GeneratedComponent] 2015-03-17 21:17:13.797729 --- Command: python ../listen/serial/server.py  /dev/ttys000 9600 5 &
+[GeneratedComponent] 2015-03-17 21:17:13.799980 --- Capability [SERIAL] activated.
+[GeneratedComponent] 2015-03-17 21:17:13.800088 --- Server: ../listen/tcp/server.py 
+[GeneratedComponent] 2015-03-17 21:17:13.800226 --- Capability: {u'host': u'localhost', u'protocol': u'TCP', u'port': 6010}
+[GeneratedComponent] 2015-03-17 21:17:13.800317 --- Error: Unable to open capability[TCP].
+[GeneratedComponent] 2015-03-17 21:17:13.800445 --- Server: ../listen/udp/server.py 
+[GeneratedComponent] 2015-03-17 21:17:13.800522 --- Capability: {u'host': u'localhost', u'protocol': u'UDP', u'port': 6030}
+[GeneratedComponent] 2015-03-17 21:17:13.800620 --- Error: Unable to open capability[UDP].
+[GeneratedComponent] 2015-03-17 21:17:13.800744 --- Server: ../listen/telnet/server.py 
+[GeneratedComponent] 2015-03-17 21:17:13.800855 --- Command: python ../listen/telnet/server.py  --host localhost --port 6020 &
+[GeneratedComponent] 2015-03-17 21:17:13.803007 --- Capability [TELNET] activated.
+[GeneratedComponent] 2015-03-17 21:17:13.803144 --- Server: ../listen/ssh/server.py 
+[GeneratedComponent] 2015-03-17 21:17:13.803359 --- Unsuported: Capability[SSH] not yet supported.
+[GeneratedComponent] 2015-03-17 21:17:13.803464 --- Server: ../listen/http/server.py 
+[GeneratedComponent] 2015-03-17 21:17:13.803557 --- Unsuported: Capability[HTTP] not yet supported.
+
+[GeneratedComponent] 2015-03-17 21:22:27.938296 --- Component loading...
+[GeneratedComponent] 2015-03-17 21:22:27.938519 --- Component behavior loaded.
+[GeneratedComponent] 2015-03-17 21:22:27.938651 --- Component history loaded.
+[GeneratedComponent] 2015-03-17 21:22:27.938855 --- Component mapping loaded.
+[GeneratedComponent] 2015-03-17 21:22:27.938963 --- Component state loaded.
+[GeneratedComponent] 2015-03-17 21:22:27.939099 --- Component capability loaded.
+[GeneratedComponent] 2015-03-17 21:22:27.940678 --- Core actions mapping loaded.
+[GeneratedComponent] 2015-03-17 21:22:27.940829 --- Custom actions mapping loaded.
+[GeneratedComponent] 2015-03-17 21:22:27.941181 --- Server: ../listen/serial/server.py 
+[GeneratedComponent] 2015-03-17 21:22:27.943670 --- Capability [SERIAL] activated.
+[GeneratedComponent] 2015-03-17 21:22:27.943761 --- Server: ../listen/tcp/server.py 
+[GeneratedComponent] 2015-03-17 21:22:27.945847 --- Capability [TCP] activated.
+[GeneratedComponent] 2015-03-17 21:22:27.945969 --- Server: ../listen/udp/server.py 
+[GeneratedComponent] 2015-03-17 21:22:27.948235 --- Capability [UDP] activated.
+[GeneratedComponent] 2015-03-17 21:22:27.948391 --- Server: ../listen/telnet/server.py 
+[GeneratedComponent] 2015-03-17 21:22:27.951323 --- Capability [TELNET] activated.
+[GeneratedComponent] 2015-03-17 21:22:27.951532 --- Server: ../listen/ssh/server.py 
+[GeneratedComponent] 2015-03-17 21:22:27.951713 --- Unsuported: Capability[SSH] not yet supported.
+[GeneratedComponent] 2015-03-17 21:22:27.951846 --- Server: ../listen/http/server.py 
+[GeneratedComponent] 2015-03-17 21:22:27.951955 --- Unsuported: Capability[HTTP] not yet supported.
+[GeneratedComponent] 2015-03-17 21:22:27.952100 --- Capabilities: [0, 0, 0, 0]
+
+[GeneratedComponent] 2015-03-17 21:22:58.281807 --- Component loading...
+[GeneratedComponent] 2015-03-17 21:22:58.282018 --- Component behavior loaded.
+[GeneratedComponent] 2015-03-17 21:22:58.286183 --- Component history loaded.
+[GeneratedComponent] 2015-03-17 21:22:58.286414 --- Component mapping loaded.
+[GeneratedComponent] 2015-03-17 21:22:58.286535 --- Component state loaded.
+[GeneratedComponent] 2015-03-17 21:22:58.286657 --- Component capability loaded.
+[GeneratedComponent] 2015-03-17 21:22:58.288196 --- Core actions mapping loaded.
+[GeneratedComponent] 2015-03-17 21:22:58.288311 --- Custom actions mapping loaded.
+[GeneratedComponent] 2015-03-17 21:22:58.288622 --- Server: ../listen/serial/server.py 
+[GeneratedComponent] 2015-03-17 21:22:58.291046 --- Capability [SERIAL] activated.
+[GeneratedComponent] 2015-03-17 21:22:58.291176 --- Server: ../listen/tcp/server.py 
+[GeneratedComponent] 2015-03-17 21:22:58.293379 --- Capability [TCP] activated.
+[GeneratedComponent] 2015-03-17 21:22:58.293525 --- Server: ../listen/udp/server.py 
+[GeneratedComponent] 2015-03-17 21:22:58.295793 --- Capability [UDP] activated.
+[GeneratedComponent] 2015-03-17 21:22:58.295959 --- Server: ../listen/telnet/server.py 
+[GeneratedComponent] 2015-03-17 21:22:58.299101 --- Capability [TELNET] activated.
+[GeneratedComponent] 2015-03-17 21:22:58.299285 --- Server: ../listen/ssh/server.py 
+[GeneratedComponent] 2015-03-17 21:22:58.299398 --- Unsuported: Capability[SSH] not yet supported.
+[GeneratedComponent] 2015-03-17 21:22:58.299549 --- Server: ../listen/http/server.py 
+[GeneratedComponent] 2015-03-17 21:22:58.299755 --- Unsuported: Capability[HTTP] not yet supported.
+[GeneratedComponent] 2015-03-17 21:22:58.299978 --- Capabilities: [0, 0, 0, 0]
+
+[GeneratedComponent] 2015-03-17 22:18:24.767080 --- Component loading...
+[GeneratedComponent] 2015-03-17 22:18:24.767278 --- Component behavior loaded.
+[GeneratedComponent] 2015-03-17 22:18:24.767422 --- Component history loaded.
+
+[GeneratedComponent] 2015-03-17 22:20:12.559540 --- Component loading...
+[GeneratedComponent] 2015-03-17 22:20:12.559771 --- Component behavior loaded.
+[GeneratedComponent] 2015-03-17 22:20:12.559892 --- Component history loaded.
+[GeneratedComponent] 2015-03-17 22:20:12.560111 --- Component mapping loaded.
+[GeneratedComponent] 2015-03-17 22:20:12.560221 --- Component state loaded.
+[GeneratedComponent] 2015-03-17 22:20:12.560348 --- Component capability loaded.
+[GeneratedComponent] 2015-03-17 22:20:12.562066 --- Core actions mapping loaded.
+[GeneratedComponent] 2015-03-17 22:20:12.562193 --- Custom actions mapping loaded.
+[GeneratedComponent] 2015-03-17 22:20:12.562505 --- Server: ../listen/serial/server.py 
+[GeneratedComponent] 2015-03-17 22:20:12.564927 --- Capability [SERIAL] activated.
+[GeneratedComponent] 2015-03-17 22:20:12.565048 --- Server: ../listen/tcp/server.py 
+[GeneratedComponent] 2015-03-17 22:20:12.567085 --- Capability [TCP] activated.
+[GeneratedComponent] 2015-03-17 22:20:12.567205 --- Server: ../listen/udp/server.py 
+[GeneratedComponent] 2015-03-17 22:20:12.569319 --- Capability [UDP] activated.
+[GeneratedComponent] 2015-03-17 22:20:12.569462 --- Server: ../listen/telnet/server.py 
+[GeneratedComponent] 2015-03-17 22:20:12.572682 --- Capability [TELNET] activated.
+[GeneratedComponent] 2015-03-17 22:20:12.572878 --- Server: ../listen/ssh/server.py 
+[GeneratedComponent] 2015-03-17 22:20:12.573045 --- Unsuported: Capability[SSH] not yet supported.
+[GeneratedComponent] 2015-03-17 22:20:12.573219 --- Server: ../listen/http/server.py 
+[GeneratedComponent] 2015-03-17 22:20:12.573337 --- Unsuported: Capability[HTTP] not yet supported.
+[GeneratedComponent] 2015-03-17 22:20:12.573494 --- Capabilities: [0, 0, 0, 0]
+[GeneratedComponent] 2015-03-17 22:20:12.591719 --- New request [20150317220054531995] to process:
+{
+    "component": "RestClient",
+    "message": {
+        "data": {
+            "time": "now"
+        },
+        "head": "sleep"
+    },
+    "protocol": "TCP",
+    "stamp": "20150317220054531995",
+    "status": "scheduled"
+}.
+[GeneratedComponent] 2015-03-17 22:20:12.591889 --- Error: The communicating component is not mapped in my knowledge.
+[GeneratedComponent] 2015-03-17 22:20:12.627136 --- Processed Result: None.
+[GeneratedComponent] 2015-03-17 22:20:22.632218 --- Error: No chanel to respond through.
+[GeneratedComponent] 2015-03-17 22:20:22.633689 --- Component state reloaded.
+[GeneratedComponent] 2015-03-17 22:20:22.637181 --- New request [20150317220203334505] to process:
+{
+    "component": "RestClient",
+    "message": {
+        "data": {
+            "time": "now"
+        },
+        "head": "sleep"
+    },
+    "protocol": "TCP",
+    "stamp": "20150317220203334505",
+    "status": "scheduled"
+}.
+[GeneratedComponent] 2015-03-17 22:20:22.637325 --- Error: The communicating component is not mapped in my knowledge.
+[GeneratedComponent] 2015-03-17 22:20:22.668682 --- Processed Result: None.
+[GeneratedComponent] 2015-03-17 22:20:32.673729 --- Error: No chanel to respond through.
+[GeneratedComponent] 2015-03-17 22:20:32.675616 --- New request [20150317220247967120] to process:
+{
+    "component": "RestClient",
+    "message": {
+        "data": {
+            "time": "now"
+        },
+        "head": "sleep"
+    },
+    "protocol": "TCP",
+    "stamp": "20150317220247967120",
+    "status": "scheduled"
+}.
+[GeneratedComponent] 2015-03-17 22:20:32.675862 --- Error: The communicating component is not mapped in my knowledge.
+[GeneratedComponent] 2015-03-17 22:20:32.706597 --- Processed Result: None.
+
+[GeneratedComponent] 2015-03-17 22:23:35.830083 --- Component loading...
+[GeneratedComponent] 2015-03-17 22:23:35.830303 --- Component behavior loaded.
+[GeneratedComponent] 2015-03-17 22:23:35.830439 --- Component history loaded.
+[GeneratedComponent] 2015-03-17 22:23:35.830671 --- Component mapping loaded.
+[GeneratedComponent] 2015-03-17 22:23:35.830784 --- Component state loaded.
+[GeneratedComponent] 2015-03-17 22:23:35.830942 --- Component capability loaded.
+[GeneratedComponent] 2015-03-17 22:23:35.833160 --- Core actions mapping loaded.
+[GeneratedComponent] 2015-03-17 22:23:35.833391 --- Custom actions mapping loaded.
+[GeneratedComponent] 2015-03-17 22:23:35.833963 --- Server: ../listen/serial/server.py 
+[GeneratedComponent] 2015-03-17 22:23:35.836830 --- Capability [SERIAL] activated.
+[GeneratedComponent] 2015-03-17 22:23:35.837046 --- Server: ../listen/tcp/server.py 
+[GeneratedComponent] 2015-03-17 22:23:35.839453 --- Capability [TCP] activated.
+[GeneratedComponent] 2015-03-17 22:23:35.839616 --- Server: ../listen/udp/server.py 
+[GeneratedComponent] 2015-03-17 22:23:35.841903 --- Capability [UDP] activated.
+[GeneratedComponent] 2015-03-17 22:23:35.842055 --- Server: ../listen/telnet/server.py 
+[GeneratedComponent] 2015-03-17 22:23:35.844367 --- Capability [TELNET] activated.
+[GeneratedComponent] 2015-03-17 22:23:35.844552 --- Server: ../listen/ssh/server.py 
+[GeneratedComponent] 2015-03-17 22:23:35.847655 --- Capability [SSH] activated.
+[GeneratedComponent] 2015-03-17 22:23:35.847826 --- Server: ../listen/http/server.py 
+[GeneratedComponent] 2015-03-17 22:23:35.851011 --- Capability [HTTP] activated.
+[GeneratedComponent] 2015-03-17 22:23:35.851190 --- Capabilities: [0, 0, 0, 0, 0, 0]
+[GeneratedComponent] 2015-03-17 22:23:35.892648 --- New request [20150317220247967120] to process:
+{
+    "component": "RestClient",
+    "message": {
+        "data": {
+            "time": "now"
+        },
+        "head": "sleep"
+    },
+    "protocol": "TCP",
+    "stamp": "20150317220247967120",
+    "status": "scheduled"
+}.
+[GeneratedComponent] 2015-03-17 22:23:35.892868 --- Error: The communicating component is not mapped in my knowledge.
+[GeneratedComponent] 2015-03-17 22:23:35.921391 --- Processed Result: None.
+[GeneratedComponent] 2015-03-17 22:23:45.925686 --- Error: No chanel to respond through.
+[GeneratedComponent] 2015-03-17 22:23:45.927575 --- New request [20150317220321972867] to process:
+{
+    "component": "RestClient",
+    "message": {
+        "data": {
+            "time": "now"
+        },
+        "head": "sleep"
+    },
+    "protocol": "TCP",
+    "stamp": "20150317220321972867",
+    "status": "scheduled"
+}.
+[GeneratedComponent] 2015-03-17 22:23:45.930130 --- Error: The communicating component is not mapped in my knowledge.
+[GeneratedComponent] 2015-03-17 22:23:45.961507 --- Processed Result: None.
+
+[GeneratedComponent] 2015-03-17 22:27:36.605016 --- Component loading...
+[GeneratedComponent] 2015-03-17 22:27:36.605293 --- Component behavior loaded.
+[GeneratedComponent] 2015-03-17 22:27:36.605504 --- Component history loaded.
+[GeneratedComponent] 2015-03-17 22:27:36.605824 --- Component mapping loaded.
+[GeneratedComponent] 2015-03-17 22:27:36.605989 --- Component state loaded.
+[GeneratedComponent] 2015-03-17 22:27:36.606179 --- Component capability loaded.
+[GeneratedComponent] 2015-03-17 22:27:36.607965 --- Core actions mapping loaded.
+[GeneratedComponent] 2015-03-17 22:27:36.608096 --- Custom actions mapping loaded.
+[GeneratedComponent] 2015-03-17 22:27:36.608413 --- Server: ../listen/serial/server.py 
+[GeneratedComponent] 2015-03-17 22:27:36.610933 --- Capability [SERIAL] activated.
+[GeneratedComponent] 2015-03-17 22:27:36.611072 --- Server: ../listen/tcp/server.py 
+[GeneratedComponent] 2015-03-17 22:27:36.613191 --- Capability [TCP] activated.
+[GeneratedComponent] 2015-03-17 22:27:36.613364 --- Server: ../listen/udp/server.py 
+[GeneratedComponent] 2015-03-17 22:27:36.615608 --- Capability [UDP] activated.
+[GeneratedComponent] 2015-03-17 22:27:36.615789 --- Server: ../listen/telnet/server.py 
+[GeneratedComponent] 2015-03-17 22:27:36.618165 --- Capability [TELNET] activated.
+[GeneratedComponent] 2015-03-17 22:27:36.618393 --- Server: ../listen/ssh/server.py 
+[GeneratedComponent] 2015-03-17 22:27:36.621048 --- Capability [SSH] activated.
+[GeneratedComponent] 2015-03-17 22:27:36.621232 --- Server: ../listen/http/server.py 
+[GeneratedComponent] 2015-03-17 22:27:36.624279 --- Capability [HTTP] activated.
+[GeneratedComponent] 2015-03-17 22:27:36.624536 --- Capabilities: [0, 0, 0, 0, 0, 0]
+[GeneratedComponent] 2015-03-17 22:27:36.672640 --- New request [20150317220321972867] to process:
+{
+    "component": "Restpoint45",
+    "message": {
+        "data": {
+            "time": "now"
+        },
+        "head": "wake"
+    },
+    "protocol": "HTTP",
+    "stamp": "20150317220321972867",
+    "status": "scheduled"
+}.
+
+[GeneratedComponent] 2015-03-17 22:30:49.292645 --- Component loading...
+[GeneratedComponent] 2015-03-17 22:30:49.292865 --- Component behavior loaded.
+[GeneratedComponent] 2015-03-17 22:30:49.293013 --- Component history loaded.
+[GeneratedComponent] 2015-03-17 22:30:49.293246 --- Component mapping loaded.
+[GeneratedComponent] 2015-03-17 22:30:49.293359 --- Component state loaded.
+[GeneratedComponent] 2015-03-17 22:30:49.293492 --- Component capability loaded.
+[GeneratedComponent] 2015-03-17 22:30:49.295292 --- Core actions mapping loaded.
+[GeneratedComponent] 2015-03-17 22:30:49.295418 --- Custom actions mapping loaded.
+[GeneratedComponent] 2015-03-17 22:30:49.295712 --- Server: ../listen/serial/server.py 
+[GeneratedComponent] 2015-03-17 22:30:49.298167 --- Capability [SERIAL] activated.
+[GeneratedComponent] 2015-03-17 22:30:49.298269 --- Server: ../listen/tcp/server.py 
+[GeneratedComponent] 2015-03-17 22:30:49.300300 --- Capability [TCP] activated.
+[GeneratedComponent] 2015-03-17 22:30:49.300452 --- Server: ../listen/udp/server.py 
+[GeneratedComponent] 2015-03-17 22:30:49.302637 --- Capability [UDP] activated.
+[GeneratedComponent] 2015-03-17 22:30:49.302893 --- Server: ../listen/telnet/server.py 
+[GeneratedComponent] 2015-03-17 22:30:49.305546 --- Capability [TELNET] activated.
+[GeneratedComponent] 2015-03-17 22:30:49.305729 --- Server: ../listen/ssh/server.py 
+[GeneratedComponent] 2015-03-17 22:30:49.308598 --- Capability [SSH] activated.
+[GeneratedComponent] 2015-03-17 22:30:49.308824 --- Server: ../listen/http/server.py 
+[GeneratedComponent] 2015-03-17 22:30:49.312079 --- Capability [HTTP] activated.
+[GeneratedComponent] 2015-03-17 22:30:49.312305 --- Capabilities: [0, 0, 0, 0, 0, 0]
+[GeneratedComponent] 2015-03-17 22:30:49.363260 --- New request [20150317220321972867] to process:
+{
+    "component": "Restpoint45",
+    "message": {
+        "data": {
+            "time": "now"
+        },
+        "head": "wake"
+    },
+    "protocol": "HTTP",
+    "stamp": "20150317220321972867",
+    "status": "scheduled"
+}.
+[GeneratedComponent] 2015-03-17 22:30:49.363425 --- Tcp protocol calibrated for the response.
+[GeneratedComponent] 2015-03-17 22:30:49.398220 --- Processed Result: {u'consistency': u'Initial',
+ u'created': u'timestamp',
+ u'requirement': u'requirementID',
+ u'status': u'SLEEP'}
+.
+[GeneratedComponent] 2015-03-17 22:30:59.401949 --- Error: No chanel to respond through.
+[GeneratedComponent] 2015-03-17 22:30:59.403356 --- Component state reloaded.
+[GeneratedComponent] 2015-03-17 22:30:59.406852 --- New request [20150317220426824956] to process:
+{
+    "component": "Restpoint45",
+    "message": {
+        "data": {
+            "time": "now"
+        },
+        "head": "update"
+    },
+    "protocol": "HTTP",
+    "stamp": "20150317220426824956",
+    "status": "scheduled"
+}.
+[GeneratedComponent] 2015-03-17 22:30:59.407009 --- Tcp protocol calibrated for the response.
+
+[GeneratedComponent] 2015-03-17 22:34:36.541705 --- Component loading...
+[GeneratedComponent] 2015-03-17 22:34:36.541934 --- Component behavior loaded.
+[GeneratedComponent] 2015-03-17 22:34:36.542073 --- Component history loaded.
+[GeneratedComponent] 2015-03-17 22:34:36.542294 --- Component mapping loaded.
+[GeneratedComponent] 2015-03-17 22:34:36.542396 --- Component state loaded.
+[GeneratedComponent] 2015-03-17 22:34:36.542532 --- Component capability loaded.
+[GeneratedComponent] 2015-03-17 22:34:36.544246 --- Core actions mapping loaded.
+[GeneratedComponent] 2015-03-17 22:34:36.544380 --- Custom actions mapping loaded.
+[GeneratedComponent] 2015-03-17 22:34:36.544705 --- Server: ../listen/serial/server.py 
+[GeneratedComponent] 2015-03-17 22:34:36.547116 --- Capability [SERIAL] activated.
+[GeneratedComponent] 2015-03-17 22:34:36.547232 --- Server: ../listen/tcp/server.py 
+[GeneratedComponent] 2015-03-17 22:34:36.549359 --- Capability [TCP] activated.
+[GeneratedComponent] 2015-03-17 22:34:36.549499 --- Server: ../listen/udp/server.py 
+[GeneratedComponent] 2015-03-17 22:34:36.551982 --- Capability [UDP] activated.
+[GeneratedComponent] 2015-03-17 22:34:36.552205 --- Server: ../listen/telnet/server.py 
+[GeneratedComponent] 2015-03-17 22:34:36.554952 --- Capability [TELNET] activated.
+[GeneratedComponent] 2015-03-17 22:34:36.555153 --- Server: ../listen/ssh/server.py 
+[GeneratedComponent] 2015-03-17 22:34:36.557934 --- Capability [SSH] activated.
+[GeneratedComponent] 2015-03-17 22:34:36.558102 --- Server: ../listen/http/server.py 
+[GeneratedComponent] 2015-03-17 22:34:36.561333 --- Capability [HTTP] activated.
+[GeneratedComponent] 2015-03-17 22:34:36.561538 --- Capabilities: [0, 0, 0, 0, 0, 0]
+[GeneratedComponent] 2015-03-17 22:34:36.610248 --- New request [20150317220426824956] to process:
+{
+    "component": "Restpoint45",
+    "message": {
+        "data": {
+            "time": "now"
+        },
+        "head": "update"
+    },
+    "protocol": "HTTP",
+    "stamp": "20150317220426824956",
+    "status": "scheduled"
+}.
+[GeneratedComponent] 2015-03-17 22:34:36.610420 --- Tcp protocol calibrated for the response.
+[GeneratedComponent] 2015-03-17 22:34:36.645433 --- Processed Result: {u'consistency': u'Initial',
+ u'created': u'timestamp',
+ u'requirement': u'requirementID',
+ u'status': u'WAKE'}
+.
+[GeneratedComponent] 2015-03-17 22:34:46.647818 --- Error: No chanel to respond through.
+
+[GeneratedComponent] 2015-03-17 22:52:09.740527 --- Component loading...
+[GeneratedComponent] 2015-03-17 22:52:09.740733 --- Component behavior loaded.
+[GeneratedComponent] 2015-03-17 22:52:09.740850 --- Component history loaded.
+[GeneratedComponent] 2015-03-17 22:52:09.741048 --- Component mapping loaded.
+[GeneratedComponent] 2015-03-17 22:52:09.741159 --- Component state loaded.
+[GeneratedComponent] 2015-03-17 22:52:09.741283 --- Component capability loaded.
+[GeneratedComponent] 2015-03-17 22:52:09.743057 --- Core actions mapping loaded.
+[GeneratedComponent] 2015-03-17 22:52:09.743170 --- Custom actions mapping loaded.
+[GeneratedComponent] 2015-03-17 22:52:09.743540 --- Server: ../listen/serial/server.py 
+[GeneratedComponent] 2015-03-17 22:52:09.746002 --- Capability [SERIAL] activated.
+[GeneratedComponent] 2015-03-17 22:52:09.746130 --- Server: ../listen/tcp/server.py 
+[GeneratedComponent] 2015-03-17 22:52:09.748496 --- Capability [TCP] activated.
+[GeneratedComponent] 2015-03-17 22:52:09.748618 --- Server: ../listen/udp/server.py 
+[GeneratedComponent] 2015-03-17 22:52:09.750895 --- Capability [UDP] activated.
+[GeneratedComponent] 2015-03-17 22:52:09.751095 --- Server: ../listen/telnet/server.py 
+[GeneratedComponent] 2015-03-17 22:52:09.753702 --- Capability [TELNET] activated.
+[GeneratedComponent] 2015-03-17 22:52:09.753878 --- Server: ../listen/ssh/server.py 
+[GeneratedComponent] 2015-03-17 22:52:09.757469 --- Capability [SSH] activated.
+[GeneratedComponent] 2015-03-17 22:52:09.757748 --- Server: ../listen/http/server.py 
+[GeneratedComponent] 2015-03-17 22:52:09.761245 --- Capability [HTTP] activated.
+[GeneratedComponent] 2015-03-17 22:52:09.761483 --- Capabilities: [0, 0, 0, 0, 0, 0]
+
+[GeneratedComponent] 2015-03-17 22:55:21.892472 --- Component loading...
+[GeneratedComponent] 2015-03-17 22:55:21.892714 --- Component behavior loaded.
+[GeneratedComponent] 2015-03-17 22:55:21.892839 --- Component history loaded.
+[GeneratedComponent] 2015-03-17 22:55:21.893078 --- Component mapping loaded.
+[GeneratedComponent] 2015-03-17 22:55:21.893297 --- Component state loaded.
+[GeneratedComponent] 2015-03-17 22:55:21.893547 --- Component capability loaded.
+[GeneratedComponent] 2015-03-17 22:55:21.896448 --- Core actions mapping loaded.
+[GeneratedComponent] 2015-03-17 22:55:21.896633 --- Custom actions mapping loaded.
+[GeneratedComponent] 2015-03-17 22:55:21.897104 --- Server: ../listen/serial/server.py 
+[GeneratedComponent] 2015-03-17 22:55:21.899696 --- Capability [SERIAL] activated.
+[GeneratedComponent] 2015-03-17 22:55:21.899808 --- Server: ../listen/tcp/server.py 
+[GeneratedComponent] 2015-03-17 22:55:21.901867 --- Capability [TCP] activated.
+[GeneratedComponent] 2015-03-17 22:55:21.902014 --- Server: ../listen/udp/server.py 
+[GeneratedComponent] 2015-03-17 22:55:21.904261 --- Capability [UDP] activated.
+[GeneratedComponent] 2015-03-17 22:55:21.904516 --- Server: ../listen/telnet/server.py 
+[GeneratedComponent] 2015-03-17 22:55:21.907282 --- Capability [TELNET] activated.
+[GeneratedComponent] 2015-03-17 22:55:21.907583 --- Server: ../listen/ssh/server.py 
+[GeneratedComponent] 2015-03-17 22:55:21.910947 --- Capability [SSH] activated.
+[GeneratedComponent] 2015-03-17 22:55:21.911226 --- Server: ../listen/http/server.py 
+[GeneratedComponent] 2015-03-17 22:55:21.914787 --- Capability [HTTP] activated.
+[GeneratedComponent] 2015-03-17 22:55:21.915092 --- Capabilities: [0, 0, 0, 0, 0, 0]
+[GeneratedComponent] 2015-03-17 22:55:21.929937 --- Component state reloaded.
+
+[GeneratedComponent] 2015-03-17 22:57:52.160851 --- Component loading...
+[GeneratedComponent] 2015-03-17 22:57:52.161057 --- Component behavior loaded.
+[GeneratedComponent] 2015-03-17 22:57:52.165284 --- Component history loaded.
+[GeneratedComponent] 2015-03-17 22:57:52.165565 --- Component mapping loaded.
+[GeneratedComponent] 2015-03-17 22:57:52.165699 --- Component state loaded.
+[GeneratedComponent] 2015-03-17 22:57:52.165858 --- Component capability loaded.
+[GeneratedComponent] 2015-03-17 22:57:52.167738 --- Core actions mapping loaded.
+[GeneratedComponent] 2015-03-17 22:57:52.167866 --- Custom actions mapping loaded.
+[GeneratedComponent] 2015-03-17 22:57:52.168185 --- Server: ../listen/serial/server.py 
+[GeneratedComponent] 2015-03-17 22:57:52.170619 --- Capability [SERIAL] activated.
+[GeneratedComponent] 2015-03-17 22:57:52.170717 --- Server: ../listen/tcp/server.py 
+[GeneratedComponent] 2015-03-17 22:57:52.172932 --- Capability [TCP] activated.
+[GeneratedComponent] 2015-03-17 22:57:52.173079 --- Server: ../listen/udp/server.py 
+[GeneratedComponent] 2015-03-17 22:57:52.175218 --- Capability [UDP] activated.
+[GeneratedComponent] 2015-03-17 22:57:52.175450 --- Server: ../listen/telnet/server.py 
+[GeneratedComponent] 2015-03-17 22:57:52.178001 --- Capability [TELNET] activated.
+[GeneratedComponent] 2015-03-17 22:57:52.178199 --- Server: ../listen/ssh/server.py 
+[GeneratedComponent] 2015-03-17 22:57:52.180787 --- Capability [SSH] activated.
+[GeneratedComponent] 2015-03-17 22:57:52.181030 --- Server: ../listen/http/server.py 
+[GeneratedComponent] 2015-03-17 22:57:52.184464 --- Capability [HTTP] activated.
+[GeneratedComponent] 2015-03-17 22:57:52.184681 --- Capabilities: [0, 0, 0, 0, 0, 0]
+
+[GeneratedComponent] 2015-03-17 23:03:55.858088 --- Component loading...
+[GeneratedComponent] 2015-03-17 23:03:55.858310 --- Component behavior loaded.
+[GeneratedComponent] 2015-03-17 23:03:55.858443 --- Component history loaded.
+[GeneratedComponent] 2015-03-17 23:03:55.858643 --- Component mapping loaded.
+[GeneratedComponent] 2015-03-17 23:03:55.858750 --- Component state loaded.
+[GeneratedComponent] 2015-03-17 23:03:55.858941 --- Component capability loaded.
+[GeneratedComponent] 2015-03-17 23:03:55.860826 --- Core actions mapping loaded.
+[GeneratedComponent] 2015-03-17 23:03:55.860948 --- Custom actions mapping loaded.
+[GeneratedComponent] 2015-03-17 23:03:55.861268 --- Server: ../listen/serial/server.py 
+[GeneratedComponent] 2015-03-17 23:03:55.863767 --- Capability [SERIAL] activated.
+[GeneratedComponent] 2015-03-17 23:03:55.863856 --- Server: ../listen/tcp/server.py 
+[GeneratedComponent] 2015-03-17 23:03:55.865881 --- Capability [TCP] activated.
+[GeneratedComponent] 2015-03-17 23:03:55.866011 --- Server: ../listen/udp/server.py 
+[GeneratedComponent] 2015-03-17 23:03:55.868001 --- Capability [UDP] activated.
+[GeneratedComponent] 2015-03-17 23:03:55.868195 --- Server: ../listen/telnet/server.py 
+[GeneratedComponent] 2015-03-17 23:03:55.870747 --- Capability [TELNET] activated.
+[GeneratedComponent] 2015-03-17 23:03:55.870928 --- Server: ../listen/ssh/server.py 
+[GeneratedComponent] 2015-03-17 23:03:55.873731 --- Capability [SSH] activated.
+[GeneratedComponent] 2015-03-17 23:03:55.873914 --- Server: ../listen/http/server.py 
+[GeneratedComponent] 2015-03-17 23:03:55.876930 --- Capability [HTTP] activated.
+[GeneratedComponent] 2015-03-17 23:03:55.877101 --- Capabilities: [0, 0, 0, 0, 0, 0]
+
+[GeneratedComponent] 2015-03-17 23:10:07.924415 --- Component loading...
+[GeneratedComponent] 2015-03-17 23:10:07.924621 --- Component behavior loaded.
+[GeneratedComponent] 2015-03-17 23:10:07.928861 --- Component history loaded.
+[GeneratedComponent] 2015-03-17 23:10:07.929118 --- Component mapping loaded.
+[GeneratedComponent] 2015-03-17 23:10:07.929233 --- Component state loaded.
+[GeneratedComponent] 2015-03-17 23:10:07.929381 --- Component capability loaded.
+[GeneratedComponent] 2015-03-17 23:10:07.931187 --- Core actions mapping loaded.
+[GeneratedComponent] 2015-03-17 23:10:07.931327 --- Custom actions mapping loaded.
+[GeneratedComponent] 2015-03-17 23:10:07.931643 --- Server: ../listen/serial/server.py 
+[GeneratedComponent] 2015-03-17 23:10:07.934085 --- Capability [SERIAL] activated.
+[GeneratedComponent] 2015-03-17 23:10:07.934182 --- Server: ../listen/tcp/server.py 
+[GeneratedComponent] 2015-03-17 23:10:07.936220 --- Capability [TCP] activated.
+[GeneratedComponent] 2015-03-17 23:10:07.936350 --- Server: ../listen/udp/server.py 
+[GeneratedComponent] 2015-03-17 23:10:07.938502 --- Capability [UDP] activated.
+[GeneratedComponent] 2015-03-17 23:10:07.938650 --- Server: ../listen/telnet/server.py 
+[GeneratedComponent] 2015-03-17 23:10:07.941382 --- Capability [TELNET] activated.
+[GeneratedComponent] 2015-03-17 23:10:07.941560 --- Server: ../listen/ssh/server.py 
+[GeneratedComponent] 2015-03-17 23:10:07.944638 --- Capability [SSH] activated.
+[GeneratedComponent] 2015-03-17 23:10:07.944825 --- Server: ../listen/http/server.py 
+[GeneratedComponent] 2015-03-17 23:10:07.948068 --- Capability [HTTP] activated.
+[GeneratedComponent] 2015-03-17 23:10:07.948269 --- Capabilities: [0, 0, 0, 0, 0, 0]
+
+[GeneratedComponent] 2015-03-17 23:11:00.157601 --- Component loading...
+[GeneratedComponent] 2015-03-17 23:11:00.157834 --- Component behavior loaded.
+[GeneratedComponent] 2015-03-17 23:11:00.162077 --- Component history loaded.
+[GeneratedComponent] 2015-03-17 23:11:00.162329 --- Component mapping loaded.
+[GeneratedComponent] 2015-03-17 23:11:00.162475 --- Component state loaded.
+[GeneratedComponent] 2015-03-17 23:11:00.162707 --- Component capability loaded.
+[GeneratedComponent] 2015-03-17 23:11:00.164649 --- Core actions mapping loaded.
+[GeneratedComponent] 2015-03-17 23:11:00.164781 --- Custom actions mapping loaded.
+[GeneratedComponent] 2015-03-17 23:11:00.165162 --- Server: ../listen/serial/server.py 
+[GeneratedComponent] 2015-03-17 23:11:00.167732 --- Capability [SERIAL] activated.
+[GeneratedComponent] 2015-03-17 23:11:00.167880 --- Server: ../listen/tcp/server.py 
+[GeneratedComponent] 2015-03-17 23:11:00.170175 --- Capability [TCP] activated.
+[GeneratedComponent] 2015-03-17 23:11:00.170394 --- Server: ../listen/udp/server.py 
+[GeneratedComponent] 2015-03-17 23:11:00.173236 --- Capability [UDP] activated.
+[GeneratedComponent] 2015-03-17 23:11:00.173456 --- Server: ../listen/telnet/server.py 
+[GeneratedComponent] 2015-03-17 23:11:00.176427 --- Capability [TELNET] activated.
+[GeneratedComponent] 2015-03-17 23:11:00.176667 --- Server: ../listen/ssh/server.py 
+[GeneratedComponent] 2015-03-17 23:11:00.179721 --- Capability [SSH] activated.
+[GeneratedComponent] 2015-03-17 23:11:00.179900 --- Server: ../listen/http/server.py 
+[GeneratedComponent] 2015-03-17 23:11:00.183691 --- Capability [HTTP] activated.
+[GeneratedComponent] 2015-03-17 23:11:00.183868 --- Capabilities: [0, 0, 0, 0, 0, 0]
+
+[GeneratedComponent] 2015-03-17 23:14:37.270748 --- Component loading...
+[GeneratedComponent] 2015-03-17 23:14:37.270968 --- Component behavior loaded.
+[GeneratedComponent] 2015-03-17 23:14:37.271098 --- Component history loaded.
+[GeneratedComponent] 2015-03-17 23:14:37.271285 --- Component mapping loaded.
+[GeneratedComponent] 2015-03-17 23:14:37.271383 --- Component state loaded.
+[GeneratedComponent] 2015-03-17 23:14:37.271515 --- Component capability loaded.
+[GeneratedComponent] 2015-03-17 23:14:37.273339 --- Core actions mapping loaded.
+[GeneratedComponent] 2015-03-17 23:14:37.273463 --- Custom actions mapping loaded.
+[GeneratedComponent] 2015-03-17 23:14:37.273783 --- Server: ../listen/serial/server.py 
+[GeneratedComponent] 2015-03-17 23:14:37.276221 --- Capability [SERIAL] activated.
+[GeneratedComponent] 2015-03-17 23:14:37.276334 --- Server: ../listen/tcp/server.py 
+[GeneratedComponent] 2015-03-17 23:14:37.278363 --- Capability [TCP] activated.
+[GeneratedComponent] 2015-03-17 23:14:37.278500 --- Server: ../listen/udp/server.py 
+[GeneratedComponent] 2015-03-17 23:14:37.280548 --- Capability [UDP] activated.
+[GeneratedComponent] 2015-03-17 23:14:37.280729 --- Server: ../listen/telnet/server.py 
+[GeneratedComponent] 2015-03-17 23:14:37.283448 --- Capability [TELNET] activated.
+[GeneratedComponent] 2015-03-17 23:14:37.283667 --- Server: ../listen/ssh/server.py 
+[GeneratedComponent] 2015-03-17 23:14:37.287122 --- Capability [SSH] activated.
+[GeneratedComponent] 2015-03-17 23:14:37.287319 --- Server: ../listen/http/server.py 
+[GeneratedComponent] 2015-03-17 23:14:37.290749 --- Capability [HTTP] activated.
+[GeneratedComponent] 2015-03-17 23:14:37.290962 --- Capabilities: [0, 0, 0, 0, 0, 0]
+[GeneratedComponent] 2015-03-17 23:15:37.346118 --- New request [20150317231452916891] to process:
+{
+    "component": "GlobalSystemComponent",
+    "message": {
+        "data": {
+            "time": "now"
+        },
+        "head": "destroy"
+    },
+    "protocol": "HTTP",
+    "stamp": "20150317231452916891",
+    "status": "scheduled"
+}.
+[GeneratedComponent] 2015-03-17 23:15:37.346336 --- Tcp protocol calibrated for the response.
+[GeneratedComponent] 2015-03-17 23:15:37.380752 --- Processed Result: {u'consistency': u'UPDATED',
+ u'created': u'timestamp',
+ u'requirement': u'requirementID',
+ u'status': u'WAKE'}
+.
+[GeneratedComponent] 2015-03-17 23:15:47.385012 --- Error: No chanel to respond through.
+[GeneratedComponent] 2015-03-17 23:16:47.390104 --- Component state reloaded.
+
+[GeneratedComponent] 2015-03-22 13:46:26.394179 --- Component loading...
+[GeneratedComponent] 2015-03-22 13:46:26.395596 --- Component behavior loaded.
+[GeneratedComponent] 2015-03-22 13:46:26.395916 --- Component history loaded.
+[GeneratedComponent] 2015-03-22 13:46:26.396572 --- Component mapping loaded.
+[GeneratedComponent] 2015-03-22 13:46:26.396935 --- Component state loaded.
+[GeneratedComponent] 2015-03-22 13:46:26.397632 --- Component capability loaded.
+[GeneratedComponent] 2015-03-22 13:46:26.403070 --- Core actions mapping loaded.
+[GeneratedComponent] 2015-03-22 13:46:26.427789 --- Custom actions mapping loaded.
+[GeneratedComponent] 2015-03-22 13:46:26.475311 --- Server: ../listen/serial/server.py 
+[GeneratedComponent] 2015-03-22 13:46:26.483052 --- Capability [SERIAL] activated.
+[GeneratedComponent] 2015-03-22 13:46:26.483211 --- Server: ../listen/tcp/server.py 
+[GeneratedComponent] 2015-03-22 13:46:26.486146 --- Capability [TCP] activated.
+[GeneratedComponent] 2015-03-22 13:46:26.486309 --- Server: ../listen/udp/server.py 
+[GeneratedComponent] 2015-03-22 13:46:26.488584 --- Capability [UDP] activated.
+[GeneratedComponent] 2015-03-22 13:46:26.488726 --- Server: ../listen/telnet/server.py 
+[GeneratedComponent] 2015-03-22 13:46:26.491110 --- Capability [TELNET] activated.
+[GeneratedComponent] 2015-03-22 13:46:26.491235 --- Server: ../listen/ssh/server.py 
+[GeneratedComponent] 2015-03-22 13:46:26.493875 --- Capability [SSH] activated.
+[GeneratedComponent] 2015-03-22 13:46:26.494193 --- Server: ../listen/http/server.py 
+[GeneratedComponent] 2015-03-22 13:46:26.498181 --- Capability [HTTP] activated.
+[GeneratedComponent] 2015-03-22 13:46:26.498371 --- Capabilities: [0, 0, 0, 0, 0, 0]
+
+[GeneratedComponent] 2015-03-22 13:47:06.894550 --- Component loading...
+[GeneratedComponent] 2015-03-22 13:47:06.894866 --- Component behavior loaded.
+[GeneratedComponent] 2015-03-22 13:47:06.899185 --- Component history loaded.
+[GeneratedComponent] 2015-03-22 13:47:06.899497 --- Component mapping loaded.
+[GeneratedComponent] 2015-03-22 13:47:06.899649 --- Component state loaded.
+[GeneratedComponent] 2015-03-22 13:47:06.899840 --- Component capability loaded.
+[GeneratedComponent] 2015-03-22 13:47:06.902528 --- Core actions mapping loaded.
+[GeneratedComponent] 2015-03-22 13:47:06.902667 --- Custom actions mapping loaded.
+[GeneratedComponent] 2015-03-22 13:47:06.903008 --- Server: ../listen/serial/server.py 
+[GeneratedComponent] 2015-03-22 13:47:06.906285 --- Capability [SERIAL] activated.
+[GeneratedComponent] 2015-03-22 13:47:06.906380 --- Server: ../listen/tcp/server.py 
+[GeneratedComponent] 2015-03-22 13:47:06.908403 --- Capability [TCP] activated.
+[GeneratedComponent] 2015-03-22 13:47:06.908539 --- Server: ../listen/udp/server.py 
+[GeneratedComponent] 2015-03-22 13:47:06.910678 --- Capability [UDP] activated.
+[GeneratedComponent] 2015-03-22 13:47:06.910837 --- Server: ../listen/telnet/server.py 
+[GeneratedComponent] 2015-03-22 13:47:06.913149 --- Capability [TELNET] activated.
+[GeneratedComponent] 2015-03-22 13:47:06.913325 --- Server: ../listen/ssh/server.py 
+[GeneratedComponent] 2015-03-22 13:47:06.915728 --- Capability [SSH] activated.
+[GeneratedComponent] 2015-03-22 13:47:06.915922 --- Server: ../listen/http/server.py 
+[GeneratedComponent] 2015-03-22 13:47:06.918661 --- Capability [HTTP] activated.
+[GeneratedComponent] 2015-03-22 13:47:06.918838 --- Capabilities: [0, 0, 0, 0, 0, 0]
+
+[GeneratedComponent] 2015-05-01 06:23:47.658618 --- Component loading...
+[GeneratedComponent] 2015-05-01 06:23:47.663280 --- Component behavior loaded.
+[GeneratedComponent] 2015-05-01 06:23:47.663644 --- Component history loaded.
+[GeneratedComponent] 2015-05-01 06:23:47.664131 --- Component mapping loaded.
+[GeneratedComponent] 2015-05-01 06:23:47.664494 --- Component state loaded.
+[GeneratedComponent] 2015-05-01 06:23:47.664863 --- Component capability loaded.
+[GeneratedComponent] 2015-05-01 06:23:47.666871 --- Core actions mapping loaded.
+[GeneratedComponent] 2015-05-01 06:23:47.667175 --- Custom actions mapping loaded.
+[GeneratedComponent] 2015-05-01 06:23:47.667474 --- Server: ../listen/serial/server.py 
+[GeneratedComponent] 2015-05-01 06:23:47.670100 --- Capability [SERIAL] activated.
+[GeneratedComponent] 2015-05-01 06:23:47.670290 --- Server: ../listen/tcp/server.py 
+[GeneratedComponent] 2015-05-01 06:23:47.672497 --- Capability [TCP] activated.
+[GeneratedComponent] 2015-05-01 06:23:47.672602 --- Server: ../listen/udp/server.py 
+[GeneratedComponent] 2015-05-01 06:23:47.675794 --- Capability [UDP] activated.
+[GeneratedComponent] 2015-05-01 06:23:47.676029 --- Server: ../listen/telnet/server.py 
+[GeneratedComponent] 2015-05-01 06:23:47.681379 --- Capability [TELNET] activated.
+[GeneratedComponent] 2015-05-01 06:23:47.681768 --- Server: ../listen/ssh/server.py 
+[GeneratedComponent] 2015-05-01 06:23:47.688827 --- Capability [SSH] activated.
+[GeneratedComponent] 2015-05-01 06:23:47.689286 --- Server: ../listen/http/server.py 
+[GeneratedComponent] 2015-05-01 06:23:47.698775 --- Capability [HTTP] activated.
+[GeneratedComponent] 2015-05-01 06:23:47.699125 --- Capabilities: [0, 0, 0, 0, 0, 0]
+
+[GeneratedComponent] 2015-05-01 08:43:34.235119 --- Component loading...
+[GeneratedComponent] 2015-05-01 08:43:34.235340 --- Component behavior loaded.
+[GeneratedComponent] 2015-05-01 08:43:34.235481 --- Component history loaded.
+[GeneratedComponent] 2015-05-01 08:43:34.235660 --- Component mapping loaded.
+[GeneratedComponent] 2015-05-01 08:43:34.235752 --- Component state loaded.
+[GeneratedComponent] 2015-05-01 08:43:34.235867 --- Component capability loaded.
+[GeneratedComponent] 2015-05-01 08:43:34.243873 --- Core actions mapping loaded.
+[GeneratedComponent] 2015-05-01 08:43:34.244019 --- Custom actions mapping loaded.
+[GeneratedComponent] 2015-05-01 08:43:34.244307 --- Server: ../listen/serial/server.py 
+[GeneratedComponent] 2015-05-01 08:43:34.246964 --- Capability [SERIAL] activated.
+[GeneratedComponent] 2015-05-01 08:43:34.247168 --- Server: ../listen/tcp/server.py 
+[GeneratedComponent] 2015-05-01 08:43:34.249300 --- Capability [TCP] activated.
+[GeneratedComponent] 2015-05-01 08:43:34.249431 --- Server: ../listen/udp/server.py 
+[GeneratedComponent] 2015-05-01 08:43:34.251453 --- Capability [UDP] activated.
+[GeneratedComponent] 2015-05-01 08:43:34.251574 --- Server: ../listen/telnet/server.py 
+[GeneratedComponent] 2015-05-01 08:43:34.253924 --- Capability [TELNET] activated.
+[GeneratedComponent] 2015-05-01 08:43:34.254075 --- Server: ../listen/ssh/server.py 
+[GeneratedComponent] 2015-05-01 08:43:34.256382 --- Capability [SSH] activated.
+[GeneratedComponent] 2015-05-01 08:43:34.256652 --- Server: ../listen/http/server.py 
+[GeneratedComponent] 2015-05-01 08:43:34.259636 --- Capability [HTTP] activated.
+[GeneratedComponent] 2015-05-01 08:43:34.259871 --- Capabilities: [0, 0, 0, 0, 0, 0]

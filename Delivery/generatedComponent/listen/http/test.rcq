@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rest-client version="3.2.1"><request><http-version>1.1</http-version><http-follow-redirects/><URL>http://localhost:6000/dynamicderivation/v1/process/gen/comp00/</URL><method>POST</method><body><string content-type="application/json" charset="UTF-8">{
+	"component":"GlobalSystemComponent",
+	"head":"destroy",
+	"data":
+	{
+		"time":"now"
+	}
+}</string></body></request></rest-client>

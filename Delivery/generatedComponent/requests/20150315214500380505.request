@@ -1,0 +1,12 @@
+{
+    "component": "Component",
+    "message": {
+        "data": {
+            "time": "now"
+        },
+        "head": "sleep"
+    },
+    "protocol": "TCP",
+    "stamp": "20150315214500380505",
+    "status": "processed"
+}

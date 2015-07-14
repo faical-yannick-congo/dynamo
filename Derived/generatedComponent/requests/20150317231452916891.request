@@ -1,0 +1,12 @@
+{
+    "component": "GlobalSystemComponent",
+    "message": {
+        "data": {
+            "time": "now"
+        },
+        "head": "destroy"
+    },
+    "protocol": "HTTP",
+    "stamp": "20150317231452916891",
+    "status": "processed"
+}

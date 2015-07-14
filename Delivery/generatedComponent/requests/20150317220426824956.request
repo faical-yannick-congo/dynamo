@@ -1,0 +1,12 @@
+{
+    "component": "Restpoint45",
+    "message": {
+        "data": {
+            "time": "now"
+        },
+        "head": "update"
+    },
+    "protocol": "HTTP",
+    "stamp": "20150317220426824956",
+    "status": "processed"
+}

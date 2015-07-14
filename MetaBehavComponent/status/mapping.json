@@ -1,0 +1,17 @@
+{
+	"distribution":
+	[
+		{
+			"component":"GlobalSystemComponent",
+			"location":"http://localhost:5000/dynamicderivation/v1/process/meta/global/"
+		},
+		{
+			"component":"MetaStructuralComponent",
+			"location":"http://localhost:5100/dynamicderivation/v1/process/meta/structural/"
+		},
+		{
+			"component":"MetaBehaviroalComponent",
+			"location":"http://localhost:5200/dynamicderivation/v1/process/meta/behavioral"
+		}
+	]
+}
